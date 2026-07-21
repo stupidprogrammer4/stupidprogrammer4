@@ -52,7 +52,7 @@ Currently pursuing a BSc in Computer Science (2023–2027) while diving deep int
 ## ✨ Interests & Off-Keyboard
 
 *   **Algorithm Design:** Tree Dynamic Programming, Computational Geometry.
-*   **Sports:** Boxing 🥊, Calisthenics, and coaching Aerial Sports (silk, hoop, hammock).
+*   **Sports:** Boxing 🥊, Calisthenics.
 *   **Themes:** 🦋
 
 ## 📫 Let's Connect
