@@ -241,6 +241,9 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 ## 📫 Let's Connect
 
 <div align="center">
+  <a href="https://www.linkedin.com/in/pouya-sadeghi-5a2179250/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
+  </a>
   <a href="mailto:ilovelinux764@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
   </a>
