@@ -18,14 +18,14 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 </div>
 
 <!-- ─────────────────────────  WHOAMI  ───────────────────────── -->
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> whoami
 
-<img align="right" width="330" src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/programming.gif" />
+<img align="right" width="330" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" />
 
 ```python
 class Pouya(BackendDeveloper):
@@ -60,7 +60,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 
 <br clear="right" />
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
 <!-- ─────────────────────────  PROJECTS  ───────────────────────── -->
 
@@ -112,7 +112,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
 <!-- ─────────────────────────  ARSENAL  ───────────────────────── -->
 
@@ -137,7 +137,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 </div>
 
 <!-- ─────────────────────────  STATS  ───────────────────────── -->
@@ -145,12 +145,21 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 ## 📊 GitHub Battle Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=stupidprogrammer4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&icon_color=7aa2f7&include_all_commits=true&count_private=true" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stupidprogrammer4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&langs_count=8" />
+  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=stupidprogrammer4&theme=tokyonight" />
 </div>
 
 <div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=stupidprogrammer4&theme=tokyonight&hide_border=true&background=0D1117&ring=BB9AF7&fire=F7768E&currStreakLabel=7AA2F7" />
+  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stupidprogrammer4&theme=tokyonight" />
+  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=stupidprogrammer4&theme=tokyonight" />
+</div>
+
+<div align="center">
+  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stupidprogrammer4&theme=tokyonight" />
+  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=stupidprogrammer4&theme=tokyonight&utcOffset=3" />
+</div>
+
+<div align="center">
+  <img width="70%" src="https://streak-stats.demolab.com/?user=stupidprogrammer4&theme=tokyonight&hide_border=true&background=0D1117&ring=BB9AF7&fire=F7768E&currStreakLabel=7AA2F7" />
 </div>
 
 <div align="center">
@@ -158,7 +167,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=stupidprogrammer4&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+  <img width="95%" src="https://github-trophies.vercel.app/?username=stupidprogrammer4&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 </div>
 
 <!-- ─────────────────────────  SNAKE  ───────────────────────── -->
@@ -171,7 +180,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
   </picture>
 </div>
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
 <!-- ─────────────────────────  COMPETITIVE  ───────────────────────── -->
 
@@ -189,7 +198,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 
 > *"Competitive programming didn't teach me to write code fast. It taught me which code not to write at all."*
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
 <!-- ─────────────────────────  OFF-KEYBOARD  ───────────────────────── -->
 
@@ -225,7 +234,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
 </div>
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/rainbow-line.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 
 <!-- ─────────────────────────  CONNECT  ───────────────────────── -->
 
