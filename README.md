@@ -159,7 +159,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 </div>
 
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com/?user=stupidprogrammer4&theme=tokyonight&hide_border=true&background=0D1117&ring=BB9AF7&fire=F7768E&currStreakLabel=7AA2F7" />
+  <img width="70%" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=stupidprogrammer4&theme=tokyonight&hide_border=true&background=0D1117&ring=BB9AF7&fire=F7768E&currStreakLabel=7AA2F7&card_width=495" />
 </div>
 
 <div align="center">
