@@ -145,17 +145,8 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 ## 📊 GitHub Battle Stats
 
 <div align="center">
-  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=stupidprogrammer4&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stupidprogrammer4&theme=tokyonight" />
-  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=stupidprogrammer4&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stupidprogrammer4&theme=tokyonight" />
-  <img width="41%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=stupidprogrammer4&theme=tokyonight&utcOffset=3" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=stupidprogrammer4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&icon_color=7aa2f7&text_color=c0caf5&include_all_commits=true&count_private=true&custom_title=Pouya's%20GitHub%20Stats&rank_icon=github" />
+  <img width="41%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=stupidprogrammer4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&text_color=c0caf5&langs_count=8&custom_title=Most%20Used%20Languages" />
 </div>
 
 <div align="center">
