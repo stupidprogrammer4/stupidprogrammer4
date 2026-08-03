@@ -154,7 +154,7 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stupidprogrammer4&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=BB9AF7&line=7AA2F7&point=F7768E&area=true" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stupidprogrammer4&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=BB9AF7&line=7AA2F7&point=F7768E&area=true&area_color=BB9AF7&custom_title=Contribution%20Graph" />
 </div>
 
 <div align="center">
