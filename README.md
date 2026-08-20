@@ -1,185 +1,127 @@
-<!-- ─────────────────────────  HEADER  ───────────────────────── -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Pouya%20Sadeghi&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%E2%80%A2%20System%20Architect&descAlignY=55&descSize=18" />
+  <img src="assets/matrix-rain.svg" width="100%" alt="Matrix digital rain" />
 </div>
 
 <div align="center">
   <a href="https://github.com/stupidprogrammer4">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=900&color=BB9AF7&center=true&vCenter=true&width=700&lines=Low-latency+by+obsession%2C+not+by+accident.;12+workers%2C+4+marketplaces%2C+0+race+conditions.;Trading+gold+in+milliseconds+%E2%9A%A1;I+write+the+tool+when+the+tool+doesn't+exist.;Boxing+%F0%9F%A5%8A+by+night%2C+segment+trees+by+day." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=400&size=26&pause=1000&color=00FF41&center=true&vCenter=true&width=760&lines=Wake%20up%2C%20Pouya...;The%20Matrix%20has%20you.;Follow%20the%20white%20butterfly.;Knock%2C%20knock.;There%20is%20no%20spoon%20--%20only%20O%28log%20n%29.;12%20workers.%204%20marketplaces.%200%20race%20conditions." alt="terminal" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=stupidprogrammer4&label=Butterflies%20visited&color=bb9af7&style=for-the-badge" alt="profile views" />
-  <a href="https://github.com/stupidprogrammer4?tab=followers">
-    <img src="https://img.shields.io/github/followers/stupidprogrammer4?label=Followers&style=for-the-badge&color=7aa2f7&labelColor=1a1b27" alt="followers" />
-  </a>
-  <img src="https://img.shields.io/badge/Arch%20Linux-btw%20I%20use%20it-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=1a1b27" alt="arch btw" />
+  <img src="https://komarev.com/ghpvc/?username=stupidprogrammer4&label=CONNECTIONS&color=00FF41&style=flat-square" alt="connections" />
+  <a href="https://github.com/stupidprogrammer4?tab=followers"><img src="https://img.shields.io/github/followers/stupidprogrammer4?label=OPERATORS&style=flat-square&color=00FF41&labelColor=0D0208" alt="followers" /></a>
+  <img src="https://img.shields.io/badge/ARCH%20LINUX-0D0208?style=flat-square&logo=arch-linux&logoColor=00FF41" alt="arch" />
+  <img src="https://img.shields.io/badge/STATUS%3A%20JACKED%20IN-0D0208?style=flat-square" alt="status" />
 </div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `$ whoami`
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+  <img src="assets/identity.svg" width="94%" alt="pouya@matrix - identity terminal" />
 </div>
 
-<!-- ─────────────────────────  WHOAMI  ───────────────────────── -->
+> `> There is no spoon. There is only the right data structure.`
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> whoami
+Years of competitive programming shaped my instinct for optimal architecture, heuristics and data
+structures. At **Goldis** I build concurrent worker systems that keep thousands of products in sync
+across marketplaces, and millisecond-precise automated gold trading engines. Custom ORM to squeeze
+I/O? Enterprise wrapper around FastAPI? The job decides the tool — and if it does not exist, I write it.
 
-<img align="right" width="330" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-```python
-class Pouya(BackendDeveloper):
-    role       = "Backend Developer & System Architect"
-    company    = "Goldis"
-    education  = "BSc Computer Science (2023 → 2027)"
-    os         = "Arch Linux 🐧"
-    editor     = "the one that starts with a colon"
-
-    obsessions = [
-        "algorithm correctness",
-        "low-latency design",
-        "concurrency without regrets",
-    ]
-
-    async def daily_routine(self) -> None:
-        await asyncio.gather(
-            self.sync(products=10_000, marketplaces=4),
-            self.trade(asset="gold", latency="ms"),
-            self.solve(problem="tree DP", coffee=True),
-            self.punch(bag="heavy", rounds=12),
-        )
-
-    def philosophy(self) -> str:
-        return "If the right tool doesn't exist, build it."
-```
-
-Years of competitive programming shaped my intuition for optimal architecture, heuristics, and data
-structures. At **Goldis** I architect concurrent worker systems that keep thousands of products in
-sync across major marketplaces, and build millisecond-precise automated gold trading engines.
-Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job decides the tool.
-
-<br clear="right" />
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
-
-<!-- ─────────────────────────  PROJECTS  ───────────────────────── -->
-
-## 🚀 Core Focus & Projects
+## `$ cat /proc/pouya/projects`
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ fastamu</h3>
-      <p>A batteries-included framework extending <b>FastAPI</b> for enterprise-level architecture —
-      deeply integrating Taskiq, Dishka and msgspec. Opinionated, fast, and allergic to boilerplate.</p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Taskiq-1a1b27?style=flat-square" />
-        <img src="https://img.shields.io/badge/msgspec-7aa2f7?style=flat-square" />
-      </p>
+      <h3>&#9889; fastamu</h3>
+      <p>Batteries-included framework extending <b>FastAPI</b> for enterprise architecture — Taskiq,
+      Dishka and msgspec wired in. Opinionated, fast, allergic to boilerplate.</p>
+      <p><img src="https://img.shields.io/badge/FastAPI-0D0208?style=flat-square&logo=fastapi&logoColor=00FF41" /> <img src="https://img.shields.io/badge/Taskiq-0D0208?style=flat-square" /> <img src="https://img.shields.io/badge/msgspec-0D0208?style=flat-square" /></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔄 Multi-Platform Sync Engine</h3>
-      <p>~<b>12 active workers</b> synchronizing inventory, orders and multi-strategy pricing across
-      <b>Digikala</b>, <b>Snapp</b>, <b>Basalam</b> and <b>Tapsi</b>. Highly concurrent, relentlessly consistent.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Concurrency-bb9af7?style=flat-square" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-      </p>
+      <h3>&#128260; Multi-Platform Sync Engine</h3>
+      <p>~<b>12 active workers</b> synchronising inventory, orders and multi-strategy pricing across
+      <b>Digikala</b>, <b>Snapp</b>, <b>Basalam</b> and <b>Tapsi</b>.</p>
+      <p><img src="https://img.shields.io/badge/Concurrency-0D0208?style=flat-square" /> <img src="https://img.shields.io/badge/PostgreSQL-0D0208?style=flat-square&logo=postgresql&logoColor=00FF41" /> <img src="https://img.shields.io/badge/Redis-0D0208?style=flat-square&logo=redis&logoColor=00FF41" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🥇 Digital Gold Trading — Talamala</h3>
-      <p>Real-time automated trading on <b>RabbitMQ</b> + <b>Redis</b> queue-worker architecture.
-      Instant purchases, market-fluctuation risk engineered away.</p>
-      <p>
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
-        <img src="https://img.shields.io/badge/Realtime-9ece6a?style=flat-square" />
-      </p>
+      <h3>&#129351; Digital Gold Trading — Talamala</h3>
+      <p>Real-time automated trading on a <b>RabbitMQ</b> + <b>Redis</b> queue-worker architecture.
+      Instant execution, market-fluctuation risk engineered away.</p>
+      <p><img src="https://img.shields.io/badge/RabbitMQ-0D0208?style=flat-square&logo=rabbitmq&logoColor=00FF41" /> <img src="https://img.shields.io/badge/Realtime-0D0208?style=flat-square" /></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🕹️ Low-Level Explorations</h3>
-      <p>2D game renderers in <b>C</b> with <b>SDL2</b>, <b>Rust</b> for systems programming, and
-      <b>Assembly (FASM)</b> — because abstractions are better understood from below.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-        <img src="https://img.shields.io/badge/SDL2-1a1b27?style=flat-square" />
-        <img src="https://img.shields.io/badge/FASM-f7768e?style=flat-square" />
-      </p>
+      <h3>&#127918; Low-Level Explorations</h3>
+      <p>2D game renderers in <b>C</b> with <b>SDL2</b>, <b>Rust</b> for systems work, and
+      <b>Assembly (FASM)</b> — abstractions are better understood from below.</p>
+      <p><img src="https://img.shields.io/badge/C-0D0208?style=flat-square&logo=c&logoColor=00FF41" /> <img src="https://img.shields.io/badge/SDL2-0D0208?style=flat-square" /> <img src="https://img.shields.io/badge/FASM-0D0208?style=flat-square" /></p>
     </td>
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ─────────────────────────  ARSENAL  ───────────────────────── -->
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="26"> Technical Arsenal
+## `$ ls -la /usr/lib/arsenal`
 
 <div align="center">
 
-**⌨️ Languages**
+`languages/`
 
 <img src="https://skillicons.dev/icons?i=python,go,rust,cpp,c,php,bash&theme=dark" />
 
-**🏗️ Frameworks & Architecture**
+`frameworks/`
 
 <img src="https://skillicons.dev/icons?i=fastapi,laravel,django,nodejs&theme=dark" />
-<img src="https://img.shields.io/badge/Litestar-FFB300?style=for-the-badge&logo=litestar&logoColor=black" />
-<img src="https://img.shields.io/badge/Dishka-bb9af7?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Litestar-0D0208?style=flat-square&logo=litestar&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Dishka-0D0208?style=flat-square" />
 
-**🗄️ Data, Messaging & Infrastructure**
+`infrastructure/`
 
 <img src="https://skillicons.dev/icons?i=postgres,redis,rabbitmq,elasticsearch,docker,linux,git,nginx&theme=dark" />
 
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
-</div>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ─────────────────────────  STATS  ───────────────────────── -->
-
-## 📊 GitHub Battle Stats
+## `$ ./stats --live --tail`
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=stupidprogrammer4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&icon_color=7aa2f7&text_color=c0caf5&include_all_commits=true&count_private=true&custom_title=Pouya's%20GitHub%20Stats&rank_icon=github" />
-  <img width="41%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=stupidprogrammer4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=bb9af7&text_color=c0caf5&langs_count=8&custom_title=Most%20Used%20Languages" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=stupidprogrammer4&show_icons=true&hide_border=true&bg_color=0D0208&title_color=00FF41&text_color=00C233&icon_color=00FF41&include_all_commits=true&count_private=true&custom_title=root%40matrix%20//%20stats&rank_icon=github" alt="stats" />
+  <img width="41%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=stupidprogrammer4&layout=compact&hide_border=true&bg_color=0D0208&title_color=00FF41&text_color=00C233&langs_count=6&custom_title=lang.distribution" alt="languages" />
 </div>
 
 <div align="center">
-  <img width="70%" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=stupidprogrammer4&theme=tokyonight&hide_border=true&background=0D1117&ring=BB9AF7&fire=F7768E&currStreakLabel=7AA2F7&card_width=495" />
+  <img width="70%" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=stupidprogrammer4&hide_border=true&background=0D0208&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00C233&dates=00C233&sideNums=00FF41&currStreakNum=CFFFD8&stroke=00701C&card_width=495" alt="streak" />
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stupidprogrammer4&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=BB9AF7&line=7AA2F7&point=F7768E&area=true&area_color=BB9AF7&custom_title=Contribution%20Graph" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stupidprogrammer4&hide_border=true&bg_color=0D0208&color=00FF41&line=00FF41&point=CFFFD8&area=true&area_color=003B00&custom_title=contribution%20trace" alt="activity graph" />
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-trophies.vercel.app/?username=stupidprogrammer4&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+  <img width="95%" src="https://github-trophies.vercel.app/?username=stupidprogrammer4&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 </div>
-
-<!-- ─────────────────────────  SNAKE  ───────────────────────── -->
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ─────────────────────────  COMPETITIVE  ───────────────────────── -->
-
-## ⚔️ Competitive Programming
+## `$ history | grep contest`
 
 <div align="center">
 
-| 🏟️ Arena | 🎯 Track | 🏆 Score |
+| arena | track | score |
 |:---|:---|:---:|
 | **Technology Olympics 2024** | Algorithm | `4.5` |
 | **Algorithm Technology — Quera** | Algorithm | `8.9` |
@@ -187,74 +129,64 @@ Custom ORM to squeeze I/O? Enterprise wrapper around FastAPI? Sure — the job d
 
 </div>
 
-> *"Competitive programming didn't teach me to write code fast. It taught me which code not to write at all."*
+> `> Competitive programming did not teach me to write code fast.`<br/>
+> `> It taught me which code not to write at all.`
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ─────────────────────────  OFF-KEYBOARD  ───────────────────────── -->
-
-## 🦋 Off-Keyboard
+## `$ cat ~/.config/off-keyboard`
 
 <details open>
-  <summary><b>🥊 Sports — click to unfold</b></summary>
+  <summary><b>&#129354; combat/</b></summary>
   <br/>
   <ul>
     <li><b>Boxing</b> — footwork is just pathfinding with consequences.</li>
-    <li><b>Calisthenics</b> — bodyweight only, no dependencies, zero install.</li>
+    <li><b>Calisthenics</b> — bodyweight only. No dependencies, zero install.</li>
   </ul>
 </details>
 
 <details>
-  <summary><b>🧠 Algorithm Design — click to unfold</b></summary>
+  <summary><b>&#129504; algorithms/</b></summary>
   <br/>
   <ul>
     <li>Tree Dynamic Programming</li>
     <li>Computational Geometry</li>
-    <li>Heuristics &amp; approximation for the problems that refuse to be polynomial</li>
+    <li>Heuristics &amp; approximation for problems that refuse to be polynomial</li>
   </ul>
 </details>
 
 <details>
-  <summary><b>🎨 Aesthetics — click to unfold</b></summary>
+  <summary><b>&#129419; aesthetics/</b></summary>
   <br/>
-  <p>Butterflies 🦋, Tokyo Night palettes, terminals with too much transparency,
+  <p>Butterflies, phosphor green on black, terminals with too much transparency,
   and a tiling window manager configured well past the point of reason.</p>
 </details>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
-</div>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
-
-<!-- ─────────────────────────  CONNECT  ───────────────────────── -->
-
-## 📫 Let's Connect
+## `$ ssh pouya@matrix`
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/pouya-sadeghi-5a2179250/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
-  </a>
-  <a href="mailto:ilovelinux764@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
-  </a>
-  <a href="https://reddit.com/user/amupouya">
-    <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white&labelColor=1a1b27" />
-  </a>
-  <a href="https://quera.org/profile/googooli">
-    <img src="https://img.shields.io/badge/Quera-6A5ACD?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1a1b27" />
-  </a>
-  <a href="https://github.com/stupidprogrammer4">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" />
-  </a>
+  <a href="https://www.linkedin.com/in/pouya-sadeghi-5a2179250/"><img src="https://img.shields.io/badge/LinkedIn-0D0208?style=for-the-badge&logo=linkedin&logoColor=00FF41" /></a>
+  <a href="mailto:ilovelinux764@gmail.com"><img src="https://img.shields.io/badge/Email-0D0208?style=for-the-badge&logo=gmail&logoColor=00FF41" /></a>
+  <a href="https://reddit.com/user/amupouya"><img src="https://img.shields.io/badge/Reddit-0D0208?style=for-the-badge&logo=reddit&logoColor=00FF41" /></a>
+  <a href="https://quera.org/profile/googooli"><img src="https://img.shields.io/badge/Quera-0D0208?style=for-the-badge&logo=codeforces&logoColor=00FF41" /></a>
+  <a href="https://github.com/stupidprogrammer4"><img src="https://img.shields.io/badge/GitHub-0D0208?style=for-the-badge&logo=github&logoColor=00FF41" /></a>
 </div>
 
 <br/>
 
 <div align="center">
-  <i>Open to talking about concurrency, weird ORMs, gold prices at 3 AM, and why your loop should have been a heap.</i>
+  <table>
+    <tr>
+      <td align="center"><b>&#128308; RED PILL</b><br/>Talk concurrency, weird ORMs,<br/>and why your loop should have been a heap.</td>
+      <td align="center"><b>&#128309; BLUE PILL</b><br/>Close the tab.<br/>The README ends, the story ends.</td>
+    </tr>
+  </table>
 </div>
 
-<!-- ─────────────────────────  FOOTER  ───────────────────────── -->
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:1a1b27&height=140&section=footer&text=%F0%9F%A6%8B%20thanks%20for%20fluttering%20by&fontSize=22&fontColor=ffffff&fontAlignY=75" />
+<div align="center">
+  <sub><code>connection terminated &#183; wake up, Neo &#183; 🦋</code></sub>
+</div>

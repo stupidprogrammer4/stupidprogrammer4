@@ -1,0 +1,977 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Matrix digital rain">
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#0D0208" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#0D0208" stop-opacity="0.95"/>
+</linearGradient>
+</defs>
+<style>
+.r{font-family:"Courier New",Courier,monospace;font-size:15px;font-weight:700}
+@keyframes fall{from{transform:translateY(-420px)}to{transform:translateY(300px)}}
+.c{animation-name:fall;animation-timing-function:linear;animation-iteration-count:infinite}
+@keyframes flick{0%,100%{opacity:1}47%{opacity:1}48%{opacity:.55}50%{opacity:1}92%{opacity:.8}94%{opacity:1}}
+.ttl{font-family:"Courier New",Courier,monospace;font-weight:700;fill:#00FF41;animation:flick 4.5s infinite}
+@keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cur{animation:cur 1.05s steps(1) infinite}
+</style>
+<rect width="1000" height="260" fill="#0D0208"/>
+<g class="c" transform="translate(0,204)" style="animation-duration:10.49s;animation-delay:-7.45s">
+<text class="r" x="6" y="0" fill="#00701C" opacity="0.1">ﾖ</text>
+<text class="r" x="6" y="17" fill="#00701C" opacity="0.12">1</text>
+<text class="r" x="6" y="34" fill="#00701C" opacity="0.14">ｻ</text>
+<text class="r" x="6" y="51" fill="#00701C" opacity="0.15">4</text>
+<text class="r" x="6" y="68" fill="#00701C" opacity="0.17">7</text>
+<text class="r" x="6" y="85" fill="#00701C" opacity="0.19">ﾆ</text>
+<text class="r" x="6" y="102" fill="#00701C" opacity="0.21">ﾉ</text>
+<text class="r" x="6" y="119" fill="#00701C" opacity="0.22">ﾙ</text>
+<text class="r" x="6" y="136" fill="#00701C" opacity="0.24">5</text>
+<text class="r" x="6" y="153" fill="#00C233" opacity="0.62">ﾈ</text>
+<text class="r" x="6" y="170" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="6" y="187" fill="#00C233" opacity="0.62">ﾊ</text>
+<text class="r" x="6" y="204" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="6" y="221" fill="#00C233" opacity="0.62">ｾ</text>
+<text class="r" x="6" y="238" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="6" y="255" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="6" y="272" fill="#00FF41" opacity="0.95">ﾈ</text>
+<text class="r" x="6" y="289" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="6" y="306" fill="#00FF41" opacity="0.95">ﾌ</text>
+<text class="r" x="6" y="323" fill="#00FF41" opacity="0.95">7</text>
+<text class="r" x="6" y="340" fill="#CFFFD8" opacity="1.0">ﾙ</text>
+</g>
+<g class="c" transform="translate(0,-24)" style="animation-duration:10.32s;animation-delay:-5.22s">
+<text class="r" x="26" y="0" fill="#00701C" opacity="0.1">ﾊ</text>
+<text class="r" x="26" y="17" fill="#00701C" opacity="0.12">ﾊ</text>
+<text class="r" x="26" y="34" fill="#00701C" opacity="0.14">6</text>
+<text class="r" x="26" y="51" fill="#00701C" opacity="0.16">2</text>
+<text class="r" x="26" y="68" fill="#00701C" opacity="0.18">6</text>
+<text class="r" x="26" y="85" fill="#00701C" opacity="0.2">ﾄ</text>
+<text class="r" x="26" y="102" fill="#00701C" opacity="0.22">ﾛ</text>
+<text class="r" x="26" y="119" fill="#00C233" opacity="0.62">ｲ</text>
+<text class="r" x="26" y="136" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="26" y="153" fill="#00C233" opacity="0.62">ﾇ</text>
+<text class="r" x="26" y="170" fill="#00C233" opacity="0.62">ﾗ</text>
+<text class="r" x="26" y="187" fill="#00C233" opacity="0.62">ｸ</text>
+<text class="r" x="26" y="204" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="26" y="221" fill="#00FF41" opacity="0.95">ﾀ</text>
+<text class="r" x="26" y="238" fill="#00FF41" opacity="0.95">ｻ</text>
+<text class="r" x="26" y="255" fill="#00FF41" opacity="0.95">5</text>
+<text class="r" x="26" y="272" fill="#00FF41" opacity="0.95">9</text>
+<text class="r" x="26" y="289" fill="#CFFFD8" opacity="1.0">ﾅ</text>
+</g>
+<g class="c" transform="translate(0,88)" style="animation-duration:8.9s;animation-delay:-8.14s">
+<text class="r" x="46" y="0" fill="#00701C" opacity="0.1">ﾗ</text>
+<text class="r" x="46" y="17" fill="#00701C" opacity="0.12">ﾁ</text>
+<text class="r" x="46" y="34" fill="#00701C" opacity="0.13">6</text>
+<text class="r" x="46" y="51" fill="#00701C" opacity="0.15">ｽ</text>
+<text class="r" x="46" y="68" fill="#00701C" opacity="0.17">ﾔ</text>
+<text class="r" x="46" y="85" fill="#00701C" opacity="0.18">ｵ</text>
+<text class="r" x="46" y="102" fill="#00701C" opacity="0.2">ﾙ</text>
+<text class="r" x="46" y="119" fill="#00701C" opacity="0.22">ﾒ</text>
+<text class="r" x="46" y="136" fill="#00701C" opacity="0.23">ﾘ</text>
+<text class="r" x="46" y="153" fill="#00C233" opacity="0.62">ﾕ</text>
+<text class="r" x="46" y="170" fill="#00C233" opacity="0.62">4</text>
+<text class="r" x="46" y="187" fill="#00C233" opacity="0.62">ｳ</text>
+<text class="r" x="46" y="204" fill="#00C233" opacity="0.62">ｵ</text>
+<text class="r" x="46" y="221" fill="#00C233" opacity="0.62">ﾋ</text>
+<text class="r" x="46" y="238" fill="#00C233" opacity="0.62">ﾚ</text>
+<text class="r" x="46" y="255" fill="#00C233" opacity="0.62">ﾘ</text>
+<text class="r" x="46" y="272" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="46" y="289" fill="#00FF41" opacity="0.95">ﾜ</text>
+<text class="r" x="46" y="306" fill="#00FF41" opacity="0.95">ｲ</text>
+<text class="r" x="46" y="323" fill="#00FF41" opacity="0.95">ﾙ</text>
+<text class="r" x="46" y="340" fill="#00FF41" opacity="0.95">ｽ</text>
+<text class="r" x="46" y="357" fill="#CFFFD8" opacity="1.0">ｽ</text>
+</g>
+<g class="c" transform="translate(0,202)" style="animation-duration:6.14s;animation-delay:-2.78s">
+<text class="r" x="66" y="0" fill="#00701C" opacity="0.1">ﾅ</text>
+<text class="r" x="66" y="17" fill="#00701C" opacity="0.13">ｱ</text>
+<text class="r" x="66" y="34" fill="#00701C" opacity="0.16">5</text>
+<text class="r" x="66" y="51" fill="#00701C" opacity="0.19">ﾘ</text>
+<text class="r" x="66" y="68" fill="#00701C" opacity="0.22">ﾆ</text>
+<text class="r" x="66" y="85" fill="#00C233" opacity="0.62">ﾌ</text>
+<text class="r" x="66" y="102" fill="#00C233" opacity="0.62">ﾕ</text>
+<text class="r" x="66" y="119" fill="#00C233" opacity="0.62">5</text>
+<text class="r" x="66" y="136" fill="#00C233" opacity="0.62">ｿ</text>
+<text class="r" x="66" y="153" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="66" y="170" fill="#00FF41" opacity="0.95">ｳ</text>
+<text class="r" x="66" y="187" fill="#00FF41" opacity="0.95">4</text>
+<text class="r" x="66" y="204" fill="#CFFFD8" opacity="1.0">ﾔ</text>
+</g>
+<g class="c" transform="translate(0,-195)" style="animation-duration:6.29s;animation-delay:-5.61s">
+<text class="r" x="86" y="0" fill="#00701C" opacity="0.1">ﾒ</text>
+<text class="r" x="86" y="17" fill="#00701C" opacity="0.12">ﾒ</text>
+<text class="r" x="86" y="34" fill="#00701C" opacity="0.13">ﾒ</text>
+<text class="r" x="86" y="51" fill="#00701C" opacity="0.15">ｼ</text>
+<text class="r" x="86" y="68" fill="#00701C" opacity="0.17">4</text>
+<text class="r" x="86" y="85" fill="#00701C" opacity="0.18">ﾛ</text>
+<text class="r" x="86" y="102" fill="#00701C" opacity="0.2">ｴ</text>
+<text class="r" x="86" y="119" fill="#00701C" opacity="0.22">2</text>
+<text class="r" x="86" y="136" fill="#00701C" opacity="0.23">ﾐ</text>
+<text class="r" x="86" y="153" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="86" y="170" fill="#00C233" opacity="0.62">2</text>
+<text class="r" x="86" y="187" fill="#00C233" opacity="0.62">ﾖ</text>
+<text class="r" x="86" y="204" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="86" y="221" fill="#00C233" opacity="0.62">ｲ</text>
+<text class="r" x="86" y="238" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="86" y="255" fill="#00C233" opacity="0.62">ﾒ</text>
+<text class="r" x="86" y="272" fill="#00FF41" opacity="0.95">ﾐ</text>
+<text class="r" x="86" y="289" fill="#00FF41" opacity="0.95">ﾓ</text>
+<text class="r" x="86" y="306" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="86" y="323" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="86" y="340" fill="#00FF41" opacity="0.95">1</text>
+<text class="r" x="86" y="357" fill="#CFFFD8" opacity="1.0">ﾇ</text>
+</g>
+<g class="c" transform="translate(0,-112)" style="animation-duration:9.63s;animation-delay:-6.21s">
+<text class="r" x="106" y="0" fill="#00701C" opacity="0.1">ｵ</text>
+<text class="r" x="106" y="17" fill="#00701C" opacity="0.12">0</text>
+<text class="r" x="106" y="34" fill="#00701C" opacity="0.14">ｹ</text>
+<text class="r" x="106" y="51" fill="#00701C" opacity="0.16">ｴ</text>
+<text class="r" x="106" y="68" fill="#00701C" opacity="0.17">ｻ</text>
+<text class="r" x="106" y="85" fill="#00701C" opacity="0.19">ﾅ</text>
+<text class="r" x="106" y="102" fill="#00701C" opacity="0.21">7</text>
+<text class="r" x="106" y="119" fill="#00701C" opacity="0.23">ｶ</text>
+<text class="r" x="106" y="136" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="106" y="153" fill="#00C233" opacity="0.62">ﾍ</text>
+<text class="r" x="106" y="170" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="106" y="187" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="106" y="204" fill="#00C233" opacity="0.62">ﾁ</text>
+<text class="r" x="106" y="221" fill="#00C233" opacity="0.62">ｴ</text>
+<text class="r" x="106" y="238" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="106" y="255" fill="#00FF41" opacity="0.95">ｺ</text>
+<text class="r" x="106" y="272" fill="#00FF41" opacity="0.95">ﾌ</text>
+<text class="r" x="106" y="289" fill="#00FF41" opacity="0.95">ﾇ</text>
+<text class="r" x="106" y="306" fill="#00FF41" opacity="0.95">ﾗ</text>
+<text class="r" x="106" y="323" fill="#CFFFD8" opacity="1.0">0</text>
+</g>
+<g class="c" transform="translate(0,-221)" style="animation-duration:7.12s;animation-delay:-5.28s">
+<text class="r" x="126" y="0" fill="#00701C" opacity="0.1">ｴ</text>
+<text class="r" x="126" y="17" fill="#00701C" opacity="0.13">ﾙ</text>
+<text class="r" x="126" y="34" fill="#00701C" opacity="0.16">ﾎ</text>
+<text class="r" x="126" y="51" fill="#00701C" opacity="0.2">ﾇ</text>
+<text class="r" x="126" y="68" fill="#00701C" opacity="0.23">ﾉ</text>
+<text class="r" x="126" y="85" fill="#00C233" opacity="0.62">ｵ</text>
+<text class="r" x="126" y="102" fill="#00C233" opacity="0.62">ｾ</text>
+<text class="r" x="126" y="119" fill="#00C233" opacity="0.62">ﾇ</text>
+<text class="r" x="126" y="136" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="126" y="153" fill="#00FF41" opacity="0.95">ﾜ</text>
+<text class="r" x="126" y="170" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="126" y="187" fill="#CFFFD8" opacity="1.0">ﾗ</text>
+</g>
+<g class="c" transform="translate(0,115)" style="animation-duration:9.08s;animation-delay:-1.74s">
+<text class="r" x="146" y="0" fill="#00701C" opacity="0.1">ﾊ</text>
+<text class="r" x="146" y="17" fill="#00701C" opacity="0.12">ﾘ</text>
+<text class="r" x="146" y="34" fill="#00701C" opacity="0.15">ﾌ</text>
+<text class="r" x="146" y="51" fill="#00701C" opacity="0.17">ﾔ</text>
+<text class="r" x="146" y="68" fill="#00701C" opacity="0.19">ﾁ</text>
+<text class="r" x="146" y="85" fill="#00701C" opacity="0.22">ｻ</text>
+<text class="r" x="146" y="102" fill="#00701C" opacity="0.24">ｿ</text>
+<text class="r" x="146" y="119" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="146" y="136" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="146" y="153" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="146" y="170" fill="#00C233" opacity="0.62">ﾊ</text>
+<text class="r" x="146" y="187" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="146" y="204" fill="#00FF41" opacity="0.95">ｽ</text>
+<text class="r" x="146" y="221" fill="#00FF41" opacity="0.95">6</text>
+<text class="r" x="146" y="238" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="146" y="255" fill="#CFFFD8" opacity="1.0">ﾘ</text>
+</g>
+<g class="c" transform="translate(0,-51)" style="animation-duration:10.55s;animation-delay:-7.57s">
+<text class="r" x="166" y="0" fill="#00701C" opacity="0.1">ｳ</text>
+<text class="r" x="166" y="17" fill="#00701C" opacity="0.12">ｲ</text>
+<text class="r" x="166" y="34" fill="#00701C" opacity="0.14">ﾓ</text>
+<text class="r" x="166" y="51" fill="#00701C" opacity="0.16">ﾗ</text>
+<text class="r" x="166" y="68" fill="#00701C" opacity="0.18">ｽ</text>
+<text class="r" x="166" y="85" fill="#00701C" opacity="0.2">ﾚ</text>
+<text class="r" x="166" y="102" fill="#00701C" opacity="0.22">ﾌ</text>
+<text class="r" x="166" y="119" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="166" y="136" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="166" y="153" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="166" y="170" fill="#00C233" opacity="0.62">ﾅ</text>
+<text class="r" x="166" y="187" fill="#00C233" opacity="0.62">4</text>
+<text class="r" x="166" y="204" fill="#00C233" opacity="0.62">ﾊ</text>
+<text class="r" x="166" y="221" fill="#00FF41" opacity="0.95">ﾇ</text>
+<text class="r" x="166" y="238" fill="#00FF41" opacity="0.95">ｿ</text>
+<text class="r" x="166" y="255" fill="#00FF41" opacity="0.95">ﾄ</text>
+<text class="r" x="166" y="272" fill="#00FF41" opacity="0.95">ﾍ</text>
+<text class="r" x="166" y="289" fill="#CFFFD8" opacity="1.0">ﾖ</text>
+</g>
+<g class="c" transform="translate(0,-98)" style="animation-duration:10.77s;animation-delay:-4.09s">
+<text class="r" x="186" y="0" fill="#00701C" opacity="0.1">3</text>
+<text class="r" x="186" y="17" fill="#00701C" opacity="0.12">2</text>
+<text class="r" x="186" y="34" fill="#00701C" opacity="0.14">ﾀ</text>
+<text class="r" x="186" y="51" fill="#00701C" opacity="0.16">ﾉ</text>
+<text class="r" x="186" y="68" fill="#00701C" opacity="0.18">7</text>
+<text class="r" x="186" y="85" fill="#00701C" opacity="0.2">0</text>
+<text class="r" x="186" y="102" fill="#00701C" opacity="0.22">ｶ</text>
+<text class="r" x="186" y="119" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="186" y="136" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="186" y="153" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="186" y="170" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="186" y="187" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="186" y="204" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="186" y="221" fill="#00FF41" opacity="0.95">ﾂ</text>
+<text class="r" x="186" y="238" fill="#00FF41" opacity="0.95">ﾐ</text>
+<text class="r" x="186" y="255" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="186" y="272" fill="#00FF41" opacity="0.95">7</text>
+<text class="r" x="186" y="289" fill="#CFFFD8" opacity="1.0">ﾗ</text>
+</g>
+<g class="c" transform="translate(0,136)" style="animation-duration:10.98s;animation-delay:-0.41s">
+<text class="r" x="206" y="0" fill="#00701C" opacity="0.1">ﾖ</text>
+<text class="r" x="206" y="17" fill="#00701C" opacity="0.12">ﾉ</text>
+<text class="r" x="206" y="34" fill="#00701C" opacity="0.14">ｽ</text>
+<text class="r" x="206" y="51" fill="#00701C" opacity="0.16">ﾙ</text>
+<text class="r" x="206" y="68" fill="#00701C" opacity="0.18">ﾍ</text>
+<text class="r" x="206" y="85" fill="#00701C" opacity="0.2">ｸ</text>
+<text class="r" x="206" y="102" fill="#00701C" opacity="0.22">ﾛ</text>
+<text class="r" x="206" y="119" fill="#00C233" opacity="0.62">ﾀ</text>
+<text class="r" x="206" y="136" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="206" y="153" fill="#00C233" opacity="0.62">ｴ</text>
+<text class="r" x="206" y="170" fill="#00C233" opacity="0.62">ﾐ</text>
+<text class="r" x="206" y="187" fill="#00C233" opacity="0.62">5</text>
+<text class="r" x="206" y="204" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="206" y="221" fill="#00FF41" opacity="0.95">ｾ</text>
+<text class="r" x="206" y="238" fill="#00FF41" opacity="0.95">ﾇ</text>
+<text class="r" x="206" y="255" fill="#00FF41" opacity="0.95">ﾓ</text>
+<text class="r" x="206" y="272" fill="#00FF41" opacity="0.95">ﾆ</text>
+<text class="r" x="206" y="289" fill="#CFFFD8" opacity="1.0">ﾂ</text>
+</g>
+<g class="c" transform="translate(0,-224)" style="animation-duration:10.79s;animation-delay:-7.34s">
+<text class="r" x="226" y="0" fill="#00701C" opacity="0.1">ﾑ</text>
+<text class="r" x="226" y="17" fill="#00701C" opacity="0.12">4</text>
+<text class="r" x="226" y="34" fill="#00701C" opacity="0.14">ﾖ</text>
+<text class="r" x="226" y="51" fill="#00701C" opacity="0.15">ﾛ</text>
+<text class="r" x="226" y="68" fill="#00701C" opacity="0.17">ﾚ</text>
+<text class="r" x="226" y="85" fill="#00701C" opacity="0.19">ｳ</text>
+<text class="r" x="226" y="102" fill="#00701C" opacity="0.21">ﾚ</text>
+<text class="r" x="226" y="119" fill="#00701C" opacity="0.22">ﾔ</text>
+<text class="r" x="226" y="136" fill="#00701C" opacity="0.24">ﾐ</text>
+<text class="r" x="226" y="153" fill="#00C233" opacity="0.62">ﾃ</text>
+<text class="r" x="226" y="170" fill="#00C233" opacity="0.62">ｲ</text>
+<text class="r" x="226" y="187" fill="#00C233" opacity="0.62">ｺ</text>
+<text class="r" x="226" y="204" fill="#00C233" opacity="0.62">ｺ</text>
+<text class="r" x="226" y="221" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="226" y="238" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="226" y="255" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="226" y="272" fill="#00FF41" opacity="0.95">1</text>
+<text class="r" x="226" y="289" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="226" y="306" fill="#00FF41" opacity="0.95">ﾐ</text>
+<text class="r" x="226" y="323" fill="#00FF41" opacity="0.95">ﾎ</text>
+<text class="r" x="226" y="340" fill="#CFFFD8" opacity="1.0">2</text>
+</g>
+<g class="c" transform="translate(0,-138)" style="animation-duration:5.39s;animation-delay:-1.04s">
+<text class="r" x="246" y="0" fill="#00701C" opacity="0.1">3</text>
+<text class="r" x="246" y="17" fill="#00701C" opacity="0.13">ｿ</text>
+<text class="r" x="246" y="34" fill="#00701C" opacity="0.16">ﾚ</text>
+<text class="r" x="246" y="51" fill="#00701C" opacity="0.2">ｳ</text>
+<text class="r" x="246" y="68" fill="#00701C" opacity="0.23">0</text>
+<text class="r" x="246" y="85" fill="#00C233" opacity="0.62">ﾙ</text>
+<text class="r" x="246" y="102" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="246" y="119" fill="#00C233" opacity="0.62">ﾍ</text>
+<text class="r" x="246" y="136" fill="#00FF41" opacity="0.95">ﾎ</text>
+<text class="r" x="246" y="153" fill="#00FF41" opacity="0.95">0</text>
+<text class="r" x="246" y="170" fill="#00FF41" opacity="0.95">6</text>
+<text class="r" x="246" y="187" fill="#CFFFD8" opacity="1.0">ﾊ</text>
+</g>
+<g class="c" transform="translate(0,56)" style="animation-duration:6.29s;animation-delay:-1.97s">
+<text class="r" x="266" y="0" fill="#00701C" opacity="0.1">ﾇ</text>
+<text class="r" x="266" y="17" fill="#00701C" opacity="0.12">5</text>
+<text class="r" x="266" y="34" fill="#00701C" opacity="0.13">ﾙ</text>
+<text class="r" x="266" y="51" fill="#00701C" opacity="0.15">ｷ</text>
+<text class="r" x="266" y="68" fill="#00701C" opacity="0.17">5</text>
+<text class="r" x="266" y="85" fill="#00701C" opacity="0.18">ｻ</text>
+<text class="r" x="266" y="102" fill="#00701C" opacity="0.2">ｶ</text>
+<text class="r" x="266" y="119" fill="#00701C" opacity="0.22">0</text>
+<text class="r" x="266" y="136" fill="#00701C" opacity="0.23">ｱ</text>
+<text class="r" x="266" y="153" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="266" y="170" fill="#00C233" opacity="0.62">ﾙ</text>
+<text class="r" x="266" y="187" fill="#00C233" opacity="0.62">ﾛ</text>
+<text class="r" x="266" y="204" fill="#00C233" opacity="0.62">9</text>
+<text class="r" x="266" y="221" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="266" y="238" fill="#00C233" opacity="0.62">ｻ</text>
+<text class="r" x="266" y="255" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="266" y="272" fill="#00FF41" opacity="0.95">ｽ</text>
+<text class="r" x="266" y="289" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="266" y="306" fill="#00FF41" opacity="0.95">ｶ</text>
+<text class="r" x="266" y="323" fill="#00FF41" opacity="0.95">ｻ</text>
+<text class="r" x="266" y="340" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="266" y="357" fill="#CFFFD8" opacity="1.0">ﾚ</text>
+</g>
+<g class="c" transform="translate(0,-320)" style="animation-duration:8.13s;animation-delay:-2.0s">
+<text class="r" x="286" y="0" fill="#00701C" opacity="0.1">ﾌ</text>
+<text class="r" x="286" y="17" fill="#00701C" opacity="0.12">ｿ</text>
+<text class="r" x="286" y="34" fill="#00701C" opacity="0.14">ﾜ</text>
+<text class="r" x="286" y="51" fill="#00701C" opacity="0.16">5</text>
+<text class="r" x="286" y="68" fill="#00701C" opacity="0.18">ﾋ</text>
+<text class="r" x="286" y="85" fill="#00701C" opacity="0.2">ﾆ</text>
+<text class="r" x="286" y="102" fill="#00701C" opacity="0.22">9</text>
+<text class="r" x="286" y="119" fill="#00C233" opacity="0.62">ﾔ</text>
+<text class="r" x="286" y="136" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="286" y="153" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="286" y="170" fill="#00C233" opacity="0.62">2</text>
+<text class="r" x="286" y="187" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="286" y="204" fill="#00C233" opacity="0.62">ｵ</text>
+<text class="r" x="286" y="221" fill="#00FF41" opacity="0.95">ｵ</text>
+<text class="r" x="286" y="238" fill="#00FF41" opacity="0.95">ｵ</text>
+<text class="r" x="286" y="255" fill="#00FF41" opacity="0.95">9</text>
+<text class="r" x="286" y="272" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="286" y="289" fill="#CFFFD8" opacity="1.0">ﾛ</text>
+</g>
+<g class="c" transform="translate(0,-352)" style="animation-duration:6.65s;animation-delay:-3.86s">
+<text class="r" x="306" y="0" fill="#00701C" opacity="0.1">ｱ</text>
+<text class="r" x="306" y="17" fill="#00701C" opacity="0.13">6</text>
+<text class="r" x="306" y="34" fill="#00701C" opacity="0.15">ﾜ</text>
+<text class="r" x="306" y="51" fill="#00701C" opacity="0.18">ﾀ</text>
+<text class="r" x="306" y="68" fill="#00701C" opacity="0.21">ｴ</text>
+<text class="r" x="306" y="85" fill="#00701C" opacity="0.23">ﾓ</text>
+<text class="r" x="306" y="102" fill="#00C233" opacity="0.62">ﾔ</text>
+<text class="r" x="306" y="119" fill="#00C233" opacity="0.62">ｸ</text>
+<text class="r" x="306" y="136" fill="#00C233" opacity="0.62">9</text>
+<text class="r" x="306" y="153" fill="#00C233" opacity="0.62">ﾚ</text>
+<text class="r" x="306" y="170" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="306" y="187" fill="#00FF41" opacity="0.95">ﾂ</text>
+<text class="r" x="306" y="204" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="306" y="221" fill="#CFFFD8" opacity="1.0">ﾔ</text>
+</g>
+<g class="c" transform="translate(0,44)" style="animation-duration:5.26s;animation-delay:-4.83s">
+<text class="r" x="326" y="0" fill="#00701C" opacity="0.1">ﾄ</text>
+<text class="r" x="326" y="17" fill="#00701C" opacity="0.12">ﾐ</text>
+<text class="r" x="326" y="34" fill="#00701C" opacity="0.15">ﾈ</text>
+<text class="r" x="326" y="51" fill="#00701C" opacity="0.17">ｳ</text>
+<text class="r" x="326" y="68" fill="#00701C" opacity="0.19">4</text>
+<text class="r" x="326" y="85" fill="#00701C" opacity="0.22">ﾛ</text>
+<text class="r" x="326" y="102" fill="#00701C" opacity="0.24">ﾅ</text>
+<text class="r" x="326" y="119" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="326" y="136" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="326" y="153" fill="#00C233" opacity="0.62">ﾗ</text>
+<text class="r" x="326" y="170" fill="#00C233" opacity="0.62">ｴ</text>
+<text class="r" x="326" y="187" fill="#00FF41" opacity="0.95">ｶ</text>
+<text class="r" x="326" y="204" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="326" y="221" fill="#00FF41" opacity="0.95">5</text>
+<text class="r" x="326" y="238" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="326" y="255" fill="#CFFFD8" opacity="1.0">7</text>
+</g>
+<g class="c" transform="translate(0,26)" style="animation-duration:9.65s;animation-delay:-6.01s">
+<text class="r" x="346" y="0" fill="#00701C" opacity="0.1">ﾏ</text>
+<text class="r" x="346" y="17" fill="#00701C" opacity="0.12">ｼ</text>
+<text class="r" x="346" y="34" fill="#00701C" opacity="0.14">ｱ</text>
+<text class="r" x="346" y="51" fill="#00701C" opacity="0.17">ﾐ</text>
+<text class="r" x="346" y="68" fill="#00701C" opacity="0.19">ﾜ</text>
+<text class="r" x="346" y="85" fill="#00701C" opacity="0.21">9</text>
+<text class="r" x="346" y="102" fill="#00701C" opacity="0.23">ｼ</text>
+<text class="r" x="346" y="119" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="346" y="136" fill="#00C233" opacity="0.62">ｵ</text>
+<text class="r" x="346" y="153" fill="#00C233" opacity="0.62">ﾌ</text>
+<text class="r" x="346" y="170" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="346" y="187" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="346" y="204" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="346" y="221" fill="#00FF41" opacity="0.95">ﾙ</text>
+<text class="r" x="346" y="238" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="346" y="255" fill="#00FF41" opacity="0.95">5</text>
+<text class="r" x="346" y="272" fill="#CFFFD8" opacity="1.0">6</text>
+</g>
+<g class="c" transform="translate(0,-298)" style="animation-duration:7.04s;animation-delay:-6.23s">
+<text class="r" x="366" y="0" fill="#00701C" opacity="0.1">ｿ</text>
+<text class="r" x="366" y="17" fill="#00701C" opacity="0.13">ﾑ</text>
+<text class="r" x="366" y="34" fill="#00701C" opacity="0.15">ｼ</text>
+<text class="r" x="366" y="51" fill="#00701C" opacity="0.18">ﾌ</text>
+<text class="r" x="366" y="68" fill="#00701C" opacity="0.21">ｲ</text>
+<text class="r" x="366" y="85" fill="#00701C" opacity="0.23">ﾌ</text>
+<text class="r" x="366" y="102" fill="#00C233" opacity="0.62">ﾒ</text>
+<text class="r" x="366" y="119" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="366" y="136" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="366" y="153" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="366" y="170" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="366" y="187" fill="#00FF41" opacity="0.95">0</text>
+<text class="r" x="366" y="204" fill="#00FF41" opacity="0.95">ﾙ</text>
+<text class="r" x="366" y="221" fill="#CFFFD8" opacity="1.0">ﾅ</text>
+</g>
+<g class="c" transform="translate(0,122)" style="animation-duration:4.55s;animation-delay:-3.23s">
+<text class="r" x="386" y="0" fill="#00701C" opacity="0.1">ﾈ</text>
+<text class="r" x="386" y="17" fill="#00701C" opacity="0.12">7</text>
+<text class="r" x="386" y="34" fill="#00701C" opacity="0.15">ﾅ</text>
+<text class="r" x="386" y="51" fill="#00701C" opacity="0.17">ｲ</text>
+<text class="r" x="386" y="68" fill="#00701C" opacity="0.19">4</text>
+<text class="r" x="386" y="85" fill="#00701C" opacity="0.22">ﾈ</text>
+<text class="r" x="386" y="102" fill="#00701C" opacity="0.24">ﾖ</text>
+<text class="r" x="386" y="119" fill="#00C233" opacity="0.62">ﾖ</text>
+<text class="r" x="386" y="136" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="386" y="153" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="386" y="170" fill="#00C233" opacity="0.62">ｾ</text>
+<text class="r" x="386" y="187" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="386" y="204" fill="#00FF41" opacity="0.95">ﾓ</text>
+<text class="r" x="386" y="221" fill="#00FF41" opacity="0.95">ｲ</text>
+<text class="r" x="386" y="238" fill="#00FF41" opacity="0.95">ﾝ</text>
+<text class="r" x="386" y="255" fill="#CFFFD8" opacity="1.0">ｴ</text>
+</g>
+<g class="c" transform="translate(0,-341)" style="animation-duration:8.89s;animation-delay:-3.54s">
+<text class="r" x="406" y="0" fill="#00701C" opacity="0.1">6</text>
+<text class="r" x="406" y="17" fill="#00701C" opacity="0.12">ﾊ</text>
+<text class="r" x="406" y="34" fill="#00701C" opacity="0.14">ｱ</text>
+<text class="r" x="406" y="51" fill="#00701C" opacity="0.16">ﾚ</text>
+<text class="r" x="406" y="68" fill="#00701C" opacity="0.18">ｳ</text>
+<text class="r" x="406" y="85" fill="#00701C" opacity="0.2">ﾜ</text>
+<text class="r" x="406" y="102" fill="#00701C" opacity="0.22">ﾘ</text>
+<text class="r" x="406" y="119" fill="#00C233" opacity="0.62">ﾌ</text>
+<text class="r" x="406" y="136" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="406" y="153" fill="#00C233" opacity="0.62">ﾎ</text>
+<text class="r" x="406" y="170" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="406" y="187" fill="#00C233" opacity="0.62">ﾅ</text>
+<text class="r" x="406" y="204" fill="#00C233" opacity="0.62">ﾗ</text>
+<text class="r" x="406" y="221" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="406" y="238" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="406" y="255" fill="#00FF41" opacity="0.95">ﾍ</text>
+<text class="r" x="406" y="272" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="406" y="289" fill="#CFFFD8" opacity="1.0">ﾑ</text>
+</g>
+<g class="c" transform="translate(0,-9)" style="animation-duration:4.81s;animation-delay:-4.73s">
+<text class="r" x="426" y="0" fill="#00701C" opacity="0.1">2</text>
+<text class="r" x="426" y="17" fill="#00701C" opacity="0.12">ﾈ</text>
+<text class="r" x="426" y="34" fill="#00701C" opacity="0.15">ｳ</text>
+<text class="r" x="426" y="51" fill="#00701C" opacity="0.17">ｺ</text>
+<text class="r" x="426" y="68" fill="#00701C" opacity="0.2">ｺ</text>
+<text class="r" x="426" y="85" fill="#00701C" opacity="0.23">ｷ</text>
+<text class="r" x="426" y="102" fill="#00C233" opacity="0.62">ｿ</text>
+<text class="r" x="426" y="119" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="426" y="136" fill="#00C233" opacity="0.62">ﾘ</text>
+<text class="r" x="426" y="153" fill="#00C233" opacity="0.62">ﾋ</text>
+<text class="r" x="426" y="170" fill="#00C233" opacity="0.62">ｻ</text>
+<text class="r" x="426" y="187" fill="#00FF41" opacity="0.95">ｹ</text>
+<text class="r" x="426" y="204" fill="#00FF41" opacity="0.95">ｽ</text>
+<text class="r" x="426" y="221" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="426" y="238" fill="#CFFFD8" opacity="1.0">7</text>
+</g>
+<g class="c" transform="translate(0,2)" style="animation-duration:6.83s;animation-delay:-2.31s">
+<text class="r" x="446" y="0" fill="#00701C" opacity="0.1">ﾘ</text>
+<text class="r" x="446" y="17" fill="#00701C" opacity="0.12">ｾ</text>
+<text class="r" x="446" y="34" fill="#00701C" opacity="0.15">ｻ</text>
+<text class="r" x="446" y="51" fill="#00701C" opacity="0.17">7</text>
+<text class="r" x="446" y="68" fill="#00701C" opacity="0.19">ﾗ</text>
+<text class="r" x="446" y="85" fill="#00701C" opacity="0.22">ﾏ</text>
+<text class="r" x="446" y="102" fill="#00701C" opacity="0.24">ﾂ</text>
+<text class="r" x="446" y="119" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="446" y="136" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="446" y="153" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="446" y="170" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="446" y="187" fill="#00FF41" opacity="0.95">ﾜ</text>
+<text class="r" x="446" y="204" fill="#00FF41" opacity="0.95">ﾂ</text>
+<text class="r" x="446" y="221" fill="#00FF41" opacity="0.95">ﾏ</text>
+<text class="r" x="446" y="238" fill="#00FF41" opacity="0.95">ﾁ</text>
+<text class="r" x="446" y="255" fill="#CFFFD8" opacity="1.0">ｺ</text>
+</g>
+<g class="c" transform="translate(0,-232)" style="animation-duration:9.39s;animation-delay:-8.22s">
+<text class="r" x="466" y="0" fill="#00701C" opacity="0.1">0</text>
+<text class="r" x="466" y="17" fill="#00701C" opacity="0.13">ﾝ</text>
+<text class="r" x="466" y="34" fill="#00701C" opacity="0.16">ｻ</text>
+<text class="r" x="466" y="51" fill="#00701C" opacity="0.19">ｺ</text>
+<text class="r" x="466" y="68" fill="#00701C" opacity="0.22">ｳ</text>
+<text class="r" x="466" y="85" fill="#00C233" opacity="0.62">ﾛ</text>
+<text class="r" x="466" y="102" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="466" y="119" fill="#00C233" opacity="0.62">ｴ</text>
+<text class="r" x="466" y="136" fill="#00C233" opacity="0.62">ﾀ</text>
+<text class="r" x="466" y="153" fill="#00FF41" opacity="0.95">5</text>
+<text class="r" x="466" y="170" fill="#00FF41" opacity="0.95">ﾇ</text>
+<text class="r" x="466" y="187" fill="#00FF41" opacity="0.95">ｸ</text>
+<text class="r" x="466" y="204" fill="#CFFFD8" opacity="1.0">ﾄ</text>
+</g>
+<g class="c" transform="translate(0,52)" style="animation-duration:8.67s;animation-delay:-6.34s">
+<text class="r" x="486" y="0" fill="#00701C" opacity="0.1">ﾘ</text>
+<text class="r" x="486" y="17" fill="#00701C" opacity="0.12">ﾒ</text>
+<text class="r" x="486" y="34" fill="#00701C" opacity="0.15">ﾕ</text>
+<text class="r" x="486" y="51" fill="#00701C" opacity="0.17">ﾉ</text>
+<text class="r" x="486" y="68" fill="#00701C" opacity="0.2">1</text>
+<text class="r" x="486" y="85" fill="#00701C" opacity="0.23">ﾊ</text>
+<text class="r" x="486" y="102" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="486" y="119" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="486" y="136" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="486" y="153" fill="#00C233" opacity="0.62">ｼ</text>
+<text class="r" x="486" y="170" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="486" y="187" fill="#00FF41" opacity="0.95">8</text>
+<text class="r" x="486" y="204" fill="#00FF41" opacity="0.95">ﾈ</text>
+<text class="r" x="486" y="221" fill="#00FF41" opacity="0.95">0</text>
+<text class="r" x="486" y="238" fill="#CFFFD8" opacity="1.0">ｾ</text>
+</g>
+<g class="c" transform="translate(0,-132)" style="animation-duration:10.96s;animation-delay:-9.97s">
+<text class="r" x="506" y="0" fill="#00701C" opacity="0.1">ｷ</text>
+<text class="r" x="506" y="17" fill="#00701C" opacity="0.12">ﾃ</text>
+<text class="r" x="506" y="34" fill="#00701C" opacity="0.14">ﾔ</text>
+<text class="r" x="506" y="51" fill="#00701C" opacity="0.16">ﾅ</text>
+<text class="r" x="506" y="68" fill="#00701C" opacity="0.17">ﾃ</text>
+<text class="r" x="506" y="85" fill="#00701C" opacity="0.19">ﾅ</text>
+<text class="r" x="506" y="102" fill="#00701C" opacity="0.21">ﾃ</text>
+<text class="r" x="506" y="119" fill="#00701C" opacity="0.23">ｳ</text>
+<text class="r" x="506" y="136" fill="#00C233" opacity="0.62">ﾁ</text>
+<text class="r" x="506" y="153" fill="#00C233" opacity="0.62">ﾋ</text>
+<text class="r" x="506" y="170" fill="#00C233" opacity="0.62">ﾅ</text>
+<text class="r" x="506" y="187" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="506" y="204" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="506" y="221" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="506" y="238" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="506" y="255" fill="#00FF41" opacity="0.95">ﾓ</text>
+<text class="r" x="506" y="272" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="506" y="289" fill="#00FF41" opacity="0.95">ﾖ</text>
+<text class="r" x="506" y="306" fill="#00FF41" opacity="0.95">ﾂ</text>
+<text class="r" x="506" y="323" fill="#CFFFD8" opacity="1.0">ﾓ</text>
+</g>
+<g class="c" transform="translate(0,-329)" style="animation-duration:4.43s;animation-delay:-1.43s">
+<text class="r" x="526" y="0" fill="#00701C" opacity="0.1">ｹ</text>
+<text class="r" x="526" y="17" fill="#00701C" opacity="0.12">ﾌ</text>
+<text class="r" x="526" y="34" fill="#00701C" opacity="0.15">ﾐ</text>
+<text class="r" x="526" y="51" fill="#00701C" opacity="0.17">ﾐ</text>
+<text class="r" x="526" y="68" fill="#00701C" opacity="0.19">ﾚ</text>
+<text class="r" x="526" y="85" fill="#00701C" opacity="0.22">5</text>
+<text class="r" x="526" y="102" fill="#00701C" opacity="0.24">ﾕ</text>
+<text class="r" x="526" y="119" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="526" y="136" fill="#00C233" opacity="0.62">ｻ</text>
+<text class="r" x="526" y="153" fill="#00C233" opacity="0.62">ﾗ</text>
+<text class="r" x="526" y="170" fill="#00C233" opacity="0.62">ﾉ</text>
+<text class="r" x="526" y="187" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="526" y="204" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="526" y="221" fill="#00FF41" opacity="0.95">ｲ</text>
+<text class="r" x="526" y="238" fill="#00FF41" opacity="0.95">ﾍ</text>
+<text class="r" x="526" y="255" fill="#CFFFD8" opacity="1.0">ｵ</text>
+</g>
+<g class="c" transform="translate(0,12)" style="animation-duration:5.49s;animation-delay:-3.81s">
+<text class="r" x="546" y="0" fill="#00701C" opacity="0.1">2</text>
+<text class="r" x="546" y="17" fill="#00701C" opacity="0.12">ﾄ</text>
+<text class="r" x="546" y="34" fill="#00701C" opacity="0.14">ｾ</text>
+<text class="r" x="546" y="51" fill="#00701C" opacity="0.15">5</text>
+<text class="r" x="546" y="68" fill="#00701C" opacity="0.17">ﾒ</text>
+<text class="r" x="546" y="85" fill="#00701C" opacity="0.19">ﾐ</text>
+<text class="r" x="546" y="102" fill="#00701C" opacity="0.21">ﾜ</text>
+<text class="r" x="546" y="119" fill="#00701C" opacity="0.22">ﾘ</text>
+<text class="r" x="546" y="136" fill="#00701C" opacity="0.24">ﾘ</text>
+<text class="r" x="546" y="153" fill="#00C233" opacity="0.62">ﾋ</text>
+<text class="r" x="546" y="170" fill="#00C233" opacity="0.62">ﾕ</text>
+<text class="r" x="546" y="187" fill="#00C233" opacity="0.62">ﾍ</text>
+<text class="r" x="546" y="204" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="546" y="221" fill="#00C233" opacity="0.62">ﾖ</text>
+<text class="r" x="546" y="238" fill="#00C233" opacity="0.62">ｹ</text>
+<text class="r" x="546" y="255" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="546" y="272" fill="#00FF41" opacity="0.95">ﾉ</text>
+<text class="r" x="546" y="289" fill="#00FF41" opacity="0.95">2</text>
+<text class="r" x="546" y="306" fill="#00FF41" opacity="0.95">ﾉ</text>
+<text class="r" x="546" y="323" fill="#00FF41" opacity="0.95">ｼ</text>
+<text class="r" x="546" y="340" fill="#CFFFD8" opacity="1.0">ｵ</text>
+</g>
+<g class="c" transform="translate(0,201)" style="animation-duration:6.45s;animation-delay:-1.62s">
+<text class="r" x="566" y="0" fill="#00701C" opacity="0.1">ﾂ</text>
+<text class="r" x="566" y="17" fill="#00701C" opacity="0.12">0</text>
+<text class="r" x="566" y="34" fill="#00701C" opacity="0.15">ﾒ</text>
+<text class="r" x="566" y="51" fill="#00701C" opacity="0.17">ﾁ</text>
+<text class="r" x="566" y="68" fill="#00701C" opacity="0.19">ｷ</text>
+<text class="r" x="566" y="85" fill="#00701C" opacity="0.22">ｷ</text>
+<text class="r" x="566" y="102" fill="#00701C" opacity="0.24">ﾘ</text>
+<text class="r" x="566" y="119" fill="#00C233" opacity="0.62">ｼ</text>
+<text class="r" x="566" y="136" fill="#00C233" opacity="0.62">ｹ</text>
+<text class="r" x="566" y="153" fill="#00C233" opacity="0.62">ﾇ</text>
+<text class="r" x="566" y="170" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="566" y="187" fill="#00FF41" opacity="0.95">ﾋ</text>
+<text class="r" x="566" y="204" fill="#00FF41" opacity="0.95">ｹ</text>
+<text class="r" x="566" y="221" fill="#00FF41" opacity="0.95">ﾑ</text>
+<text class="r" x="566" y="238" fill="#00FF41" opacity="0.95">ｸ</text>
+<text class="r" x="566" y="255" fill="#CFFFD8" opacity="1.0">ﾚ</text>
+</g>
+<g class="c" transform="translate(0,-25)" style="animation-duration:7.63s;animation-delay:-5.33s">
+<text class="r" x="586" y="0" fill="#00701C" opacity="0.1">ﾛ</text>
+<text class="r" x="586" y="17" fill="#00701C" opacity="0.13">ﾌ</text>
+<text class="r" x="586" y="34" fill="#00701C" opacity="0.15">ﾔ</text>
+<text class="r" x="586" y="51" fill="#00701C" opacity="0.18">ｲ</text>
+<text class="r" x="586" y="68" fill="#00701C" opacity="0.21">4</text>
+<text class="r" x="586" y="85" fill="#00701C" opacity="0.23">ﾄ</text>
+<text class="r" x="586" y="102" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="586" y="119" fill="#00C233" opacity="0.62">ﾉ</text>
+<text class="r" x="586" y="136" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="586" y="153" fill="#00C233" opacity="0.62">ﾉ</text>
+<text class="r" x="586" y="170" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="586" y="187" fill="#00FF41" opacity="0.95">ﾑ</text>
+<text class="r" x="586" y="204" fill="#00FF41" opacity="0.95">ﾎ</text>
+<text class="r" x="586" y="221" fill="#CFFFD8" opacity="1.0">4</text>
+</g>
+<g class="c" transform="translate(0,-140)" style="animation-duration:4.9s;animation-delay:-4.58s">
+<text class="r" x="606" y="0" fill="#00701C" opacity="0.1">4</text>
+<text class="r" x="606" y="17" fill="#00701C" opacity="0.13">ｺ</text>
+<text class="r" x="606" y="34" fill="#00701C" opacity="0.16">ｿ</text>
+<text class="r" x="606" y="51" fill="#00701C" opacity="0.2">ﾝ</text>
+<text class="r" x="606" y="68" fill="#00701C" opacity="0.23">ｵ</text>
+<text class="r" x="606" y="85" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="606" y="102" fill="#00C233" opacity="0.62">ｲ</text>
+<text class="r" x="606" y="119" fill="#00C233" opacity="0.62">2</text>
+<text class="r" x="606" y="136" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="606" y="153" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="606" y="170" fill="#00FF41" opacity="0.95">ｳ</text>
+<text class="r" x="606" y="187" fill="#CFFFD8" opacity="1.0">ﾖ</text>
+</g>
+<g class="c" transform="translate(0,-55)" style="animation-duration:8.38s;animation-delay:-4.8s">
+<text class="r" x="626" y="0" fill="#00701C" opacity="0.1">4</text>
+<text class="r" x="626" y="17" fill="#00701C" opacity="0.12">ｺ</text>
+<text class="r" x="626" y="34" fill="#00701C" opacity="0.14">ﾘ</text>
+<text class="r" x="626" y="51" fill="#00701C" opacity="0.16">7</text>
+<text class="r" x="626" y="68" fill="#00701C" opacity="0.17">ﾆ</text>
+<text class="r" x="626" y="85" fill="#00701C" opacity="0.19">ﾀ</text>
+<text class="r" x="626" y="102" fill="#00701C" opacity="0.21">ﾄ</text>
+<text class="r" x="626" y="119" fill="#00701C" opacity="0.23">ﾗ</text>
+<text class="r" x="626" y="136" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="626" y="153" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="626" y="170" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="626" y="187" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="626" y="204" fill="#00C233" opacity="0.62">ﾘ</text>
+<text class="r" x="626" y="221" fill="#00C233" opacity="0.62">ﾊ</text>
+<text class="r" x="626" y="238" fill="#00FF41" opacity="0.95">6</text>
+<text class="r" x="626" y="255" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="626" y="272" fill="#00FF41" opacity="0.95">ﾆ</text>
+<text class="r" x="626" y="289" fill="#00FF41" opacity="0.95">0</text>
+<text class="r" x="626" y="306" fill="#00FF41" opacity="0.95">ｼ</text>
+<text class="r" x="626" y="323" fill="#CFFFD8" opacity="1.0">ｳ</text>
+</g>
+<g class="c" transform="translate(0,-278)" style="animation-duration:8.38s;animation-delay:-7.26s">
+<text class="r" x="646" y="0" fill="#00701C" opacity="0.1">ﾌ</text>
+<text class="r" x="646" y="17" fill="#00701C" opacity="0.12">ﾌ</text>
+<text class="r" x="646" y="34" fill="#00701C" opacity="0.14">ﾊ</text>
+<text class="r" x="646" y="51" fill="#00701C" opacity="0.16">ｿ</text>
+<text class="r" x="646" y="68" fill="#00701C" opacity="0.17">ﾍ</text>
+<text class="r" x="646" y="85" fill="#00701C" opacity="0.19">3</text>
+<text class="r" x="646" y="102" fill="#00701C" opacity="0.21">ﾙ</text>
+<text class="r" x="646" y="119" fill="#00701C" opacity="0.23">ｵ</text>
+<text class="r" x="646" y="136" fill="#00C233" opacity="0.62">ｿ</text>
+<text class="r" x="646" y="153" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="646" y="170" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="646" y="187" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="646" y="204" fill="#00C233" opacity="0.62">ﾒ</text>
+<text class="r" x="646" y="221" fill="#00C233" opacity="0.62">ｼ</text>
+<text class="r" x="646" y="238" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="646" y="255" fill="#00FF41" opacity="0.95">ﾂ</text>
+<text class="r" x="646" y="272" fill="#00FF41" opacity="0.95">3</text>
+<text class="r" x="646" y="289" fill="#00FF41" opacity="0.95">ﾗ</text>
+<text class="r" x="646" y="306" fill="#00FF41" opacity="0.95">ﾖ</text>
+<text class="r" x="646" y="323" fill="#CFFFD8" opacity="1.0">ﾆ</text>
+</g>
+<g class="c" transform="translate(0,168)" style="animation-duration:7.27s;animation-delay:-0.51s">
+<text class="r" x="666" y="0" fill="#00701C" opacity="0.1">ﾙ</text>
+<text class="r" x="666" y="17" fill="#00701C" opacity="0.12">ﾁ</text>
+<text class="r" x="666" y="34" fill="#00701C" opacity="0.15">ﾅ</text>
+<text class="r" x="666" y="51" fill="#00701C" opacity="0.17">ﾍ</text>
+<text class="r" x="666" y="68" fill="#00701C" opacity="0.19">ｲ</text>
+<text class="r" x="666" y="85" fill="#00701C" opacity="0.22">ﾙ</text>
+<text class="r" x="666" y="102" fill="#00701C" opacity="0.24">ﾃ</text>
+<text class="r" x="666" y="119" fill="#00C233" opacity="0.62">ﾕ</text>
+<text class="r" x="666" y="136" fill="#00C233" opacity="0.62">ｿ</text>
+<text class="r" x="666" y="153" fill="#00C233" opacity="0.62">ﾒ</text>
+<text class="r" x="666" y="170" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="666" y="187" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="666" y="204" fill="#00FF41" opacity="0.95">ｸ</text>
+<text class="r" x="666" y="221" fill="#00FF41" opacity="0.95">ﾇ</text>
+<text class="r" x="666" y="238" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="666" y="255" fill="#CFFFD8" opacity="1.0">4</text>
+</g>
+<g class="c" transform="translate(0,-109)" style="animation-duration:9.5s;animation-delay:-4.8s">
+<text class="r" x="686" y="0" fill="#00701C" opacity="0.1">ﾖ</text>
+<text class="r" x="686" y="17" fill="#00701C" opacity="0.13">ﾎ</text>
+<text class="r" x="686" y="34" fill="#00701C" opacity="0.16">ﾃ</text>
+<text class="r" x="686" y="51" fill="#00701C" opacity="0.2">8</text>
+<text class="r" x="686" y="68" fill="#00701C" opacity="0.23">ﾍ</text>
+<text class="r" x="686" y="85" fill="#00C233" opacity="0.62">ｼ</text>
+<text class="r" x="686" y="102" fill="#00C233" opacity="0.62">ﾒ</text>
+<text class="r" x="686" y="119" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="686" y="136" fill="#00FF41" opacity="0.95">ｲ</text>
+<text class="r" x="686" y="153" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="686" y="170" fill="#00FF41" opacity="0.95">1</text>
+<text class="r" x="686" y="187" fill="#CFFFD8" opacity="1.0">ﾅ</text>
+</g>
+<g class="c" transform="translate(0,213)" style="animation-duration:7.34s;animation-delay:-4.38s">
+<text class="r" x="706" y="0" fill="#00701C" opacity="0.1">ｳ</text>
+<text class="r" x="706" y="17" fill="#00701C" opacity="0.12">8</text>
+<text class="r" x="706" y="34" fill="#00701C" opacity="0.13">ﾀ</text>
+<text class="r" x="706" y="51" fill="#00701C" opacity="0.15">ﾙ</text>
+<text class="r" x="706" y="68" fill="#00701C" opacity="0.17">8</text>
+<text class="r" x="706" y="85" fill="#00701C" opacity="0.18">6</text>
+<text class="r" x="706" y="102" fill="#00701C" opacity="0.2">7</text>
+<text class="r" x="706" y="119" fill="#00701C" opacity="0.22">ﾏ</text>
+<text class="r" x="706" y="136" fill="#00701C" opacity="0.23">ﾙ</text>
+<text class="r" x="706" y="153" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="706" y="170" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="706" y="187" fill="#00C233" opacity="0.62">ｼ</text>
+<text class="r" x="706" y="204" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="706" y="221" fill="#00C233" opacity="0.62">9</text>
+<text class="r" x="706" y="238" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="706" y="255" fill="#00C233" opacity="0.62">ﾂ</text>
+<text class="r" x="706" y="272" fill="#00FF41" opacity="0.95">ﾄ</text>
+<text class="r" x="706" y="289" fill="#00FF41" opacity="0.95">ﾕ</text>
+<text class="r" x="706" y="306" fill="#00FF41" opacity="0.95">ｻ</text>
+<text class="r" x="706" y="323" fill="#00FF41" opacity="0.95">ﾏ</text>
+<text class="r" x="706" y="340" fill="#00FF41" opacity="0.95">ﾓ</text>
+<text class="r" x="706" y="357" fill="#CFFFD8" opacity="1.0">ﾄ</text>
+</g>
+<g class="c" transform="translate(0,185)" style="animation-duration:7.87s;animation-delay:-4.64s">
+<text class="r" x="726" y="0" fill="#00701C" opacity="0.1">ﾒ</text>
+<text class="r" x="726" y="17" fill="#00701C" opacity="0.12">ﾋ</text>
+<text class="r" x="726" y="34" fill="#00701C" opacity="0.14">ﾌ</text>
+<text class="r" x="726" y="51" fill="#00701C" opacity="0.16">ｳ</text>
+<text class="r" x="726" y="68" fill="#00701C" opacity="0.18">ｺ</text>
+<text class="r" x="726" y="85" fill="#00701C" opacity="0.2">ﾆ</text>
+<text class="r" x="726" y="102" fill="#00701C" opacity="0.22">ﾜ</text>
+<text class="r" x="726" y="119" fill="#00C233" opacity="0.62">ｷ</text>
+<text class="r" x="726" y="136" fill="#00C233" opacity="0.62">ﾘ</text>
+<text class="r" x="726" y="153" fill="#00C233" opacity="0.62">ﾉ</text>
+<text class="r" x="726" y="170" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="726" y="187" fill="#00C233" opacity="0.62">ｷ</text>
+<text class="r" x="726" y="204" fill="#00C233" opacity="0.62">9</text>
+<text class="r" x="726" y="221" fill="#00FF41" opacity="0.95">4</text>
+<text class="r" x="726" y="238" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="726" y="255" fill="#00FF41" opacity="0.95">ﾀ</text>
+<text class="r" x="726" y="272" fill="#00FF41" opacity="0.95">ｿ</text>
+<text class="r" x="726" y="289" fill="#CFFFD8" opacity="1.0">ﾈ</text>
+</g>
+<g class="c" transform="translate(0,-156)" style="animation-duration:5.35s;animation-delay:-2.37s">
+<text class="r" x="746" y="0" fill="#00701C" opacity="0.1">9</text>
+<text class="r" x="746" y="17" fill="#00701C" opacity="0.12">ﾆ</text>
+<text class="r" x="746" y="34" fill="#00701C" opacity="0.15">ｷ</text>
+<text class="r" x="746" y="51" fill="#00701C" opacity="0.17">ﾐ</text>
+<text class="r" x="746" y="68" fill="#00701C" opacity="0.19">ﾄ</text>
+<text class="r" x="746" y="85" fill="#00701C" opacity="0.22">ｵ</text>
+<text class="r" x="746" y="102" fill="#00701C" opacity="0.24">ﾙ</text>
+<text class="r" x="746" y="119" fill="#00C233" opacity="0.62">ｳ</text>
+<text class="r" x="746" y="136" fill="#00C233" opacity="0.62">ﾔ</text>
+<text class="r" x="746" y="153" fill="#00C233" opacity="0.62">ｸ</text>
+<text class="r" x="746" y="170" fill="#00C233" opacity="0.62">ｾ</text>
+<text class="r" x="746" y="187" fill="#00FF41" opacity="0.95">ﾝ</text>
+<text class="r" x="746" y="204" fill="#00FF41" opacity="0.95">ﾝ</text>
+<text class="r" x="746" y="221" fill="#00FF41" opacity="0.95">ｿ</text>
+<text class="r" x="746" y="238" fill="#00FF41" opacity="0.95">ｽ</text>
+<text class="r" x="746" y="255" fill="#CFFFD8" opacity="1.0">ﾑ</text>
+</g>
+<g class="c" transform="translate(0,-283)" style="animation-duration:8.17s;animation-delay:-3.36s">
+<text class="r" x="766" y="0" fill="#00701C" opacity="0.1">9</text>
+<text class="r" x="766" y="17" fill="#00701C" opacity="0.12">ｳ</text>
+<text class="r" x="766" y="34" fill="#00701C" opacity="0.14">6</text>
+<text class="r" x="766" y="51" fill="#00701C" opacity="0.16">ｲ</text>
+<text class="r" x="766" y="68" fill="#00701C" opacity="0.18">ｹ</text>
+<text class="r" x="766" y="85" fill="#00701C" opacity="0.2">ﾜ</text>
+<text class="r" x="766" y="102" fill="#00701C" opacity="0.22">ｿ</text>
+<text class="r" x="766" y="119" fill="#00C233" opacity="0.62">ﾕ</text>
+<text class="r" x="766" y="136" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="766" y="153" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="766" y="170" fill="#00C233" opacity="0.62">ﾇ</text>
+<text class="r" x="766" y="187" fill="#00C233" opacity="0.62">ﾔ</text>
+<text class="r" x="766" y="204" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="766" y="221" fill="#00FF41" opacity="0.95">ﾐ</text>
+<text class="r" x="766" y="238" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="766" y="255" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="766" y="272" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="766" y="289" fill="#CFFFD8" opacity="1.0">ｽ</text>
+</g>
+<g class="c" transform="translate(0,132)" style="animation-duration:10.84s;animation-delay:-3.52s">
+<text class="r" x="786" y="0" fill="#00701C" opacity="0.1">ｹ</text>
+<text class="r" x="786" y="17" fill="#00701C" opacity="0.13">ﾆ</text>
+<text class="r" x="786" y="34" fill="#00701C" opacity="0.16">ﾓ</text>
+<text class="r" x="786" y="51" fill="#00701C" opacity="0.19">ﾓ</text>
+<text class="r" x="786" y="68" fill="#00701C" opacity="0.22">5</text>
+<text class="r" x="786" y="85" fill="#00C233" opacity="0.62">ﾂ</text>
+<text class="r" x="786" y="102" fill="#00C233" opacity="0.62">ﾅ</text>
+<text class="r" x="786" y="119" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="786" y="136" fill="#00C233" opacity="0.62">8</text>
+<text class="r" x="786" y="153" fill="#00FF41" opacity="0.95">ﾎ</text>
+<text class="r" x="786" y="170" fill="#00FF41" opacity="0.95">ﾁ</text>
+<text class="r" x="786" y="187" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="786" y="204" fill="#CFFFD8" opacity="1.0">ﾍ</text>
+</g>
+<g class="c" transform="translate(0,-173)" style="animation-duration:4.98s;animation-delay:-0.2s">
+<text class="r" x="806" y="0" fill="#00701C" opacity="0.1">3</text>
+<text class="r" x="806" y="17" fill="#00701C" opacity="0.12">0</text>
+<text class="r" x="806" y="34" fill="#00701C" opacity="0.15">ﾂ</text>
+<text class="r" x="806" y="51" fill="#00701C" opacity="0.17">2</text>
+<text class="r" x="806" y="68" fill="#00701C" opacity="0.19">ﾂ</text>
+<text class="r" x="806" y="85" fill="#00701C" opacity="0.22">ｶ</text>
+<text class="r" x="806" y="102" fill="#00701C" opacity="0.24">ﾛ</text>
+<text class="r" x="806" y="119" fill="#00C233" opacity="0.62">ｹ</text>
+<text class="r" x="806" y="136" fill="#00C233" opacity="0.62">ｿ</text>
+<text class="r" x="806" y="153" fill="#00C233" opacity="0.62">ｺ</text>
+<text class="r" x="806" y="170" fill="#00C233" opacity="0.62">1</text>
+<text class="r" x="806" y="187" fill="#00FF41" opacity="0.95">ｻ</text>
+<text class="r" x="806" y="204" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="806" y="221" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="806" y="238" fill="#00FF41" opacity="0.95">ｹ</text>
+<text class="r" x="806" y="255" fill="#CFFFD8" opacity="1.0">ﾈ</text>
+</g>
+<g class="c" transform="translate(0,-108)" style="animation-duration:6.02s;animation-delay:-0.46s">
+<text class="r" x="826" y="0" fill="#00701C" opacity="0.1">ﾒ</text>
+<text class="r" x="826" y="17" fill="#00701C" opacity="0.12">ﾋ</text>
+<text class="r" x="826" y="34" fill="#00701C" opacity="0.13">ﾁ</text>
+<text class="r" x="826" y="51" fill="#00701C" opacity="0.15">ﾌ</text>
+<text class="r" x="826" y="68" fill="#00701C" opacity="0.17">ｲ</text>
+<text class="r" x="826" y="85" fill="#00701C" opacity="0.18">ﾌ</text>
+<text class="r" x="826" y="102" fill="#00701C" opacity="0.2">ﾝ</text>
+<text class="r" x="826" y="119" fill="#00701C" opacity="0.22">ｽ</text>
+<text class="r" x="826" y="136" fill="#00701C" opacity="0.23">ﾂ</text>
+<text class="r" x="826" y="153" fill="#00C233" opacity="0.62">ﾐ</text>
+<text class="r" x="826" y="170" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="826" y="187" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="826" y="204" fill="#00C233" opacity="0.62">7</text>
+<text class="r" x="826" y="221" fill="#00C233" opacity="0.62">ﾁ</text>
+<text class="r" x="826" y="238" fill="#00C233" opacity="0.62">ﾝ</text>
+<text class="r" x="826" y="255" fill="#00C233" opacity="0.62">ﾉ</text>
+<text class="r" x="826" y="272" fill="#00FF41" opacity="0.95">ｸ</text>
+<text class="r" x="826" y="289" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="826" y="306" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="826" y="323" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="826" y="340" fill="#00FF41" opacity="0.95">ﾁ</text>
+<text class="r" x="826" y="357" fill="#CFFFD8" opacity="1.0">7</text>
+</g>
+<g class="c" transform="translate(0,127)" style="animation-duration:6.35s;animation-delay:-3.33s">
+<text class="r" x="846" y="0" fill="#00701C" opacity="0.1">9</text>
+<text class="r" x="846" y="17" fill="#00701C" opacity="0.13">7</text>
+<text class="r" x="846" y="34" fill="#00701C" opacity="0.15">8</text>
+<text class="r" x="846" y="51" fill="#00701C" opacity="0.18">ﾎ</text>
+<text class="r" x="846" y="68" fill="#00701C" opacity="0.21">ｹ</text>
+<text class="r" x="846" y="85" fill="#00701C" opacity="0.23">ﾌ</text>
+<text class="r" x="846" y="102" fill="#00C233" opacity="0.62">2</text>
+<text class="r" x="846" y="119" fill="#00C233" opacity="0.62">ﾂ</text>
+<text class="r" x="846" y="136" fill="#00C233" opacity="0.62">ﾍ</text>
+<text class="r" x="846" y="153" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="846" y="170" fill="#00FF41" opacity="0.95">ﾚ</text>
+<text class="r" x="846" y="187" fill="#00FF41" opacity="0.95">ﾕ</text>
+<text class="r" x="846" y="204" fill="#00FF41" opacity="0.95">ｹ</text>
+<text class="r" x="846" y="221" fill="#CFFFD8" opacity="1.0">ﾑ</text>
+</g>
+<g class="c" transform="translate(0,218)" style="animation-duration:6.7s;animation-delay:-0.35s">
+<text class="r" x="866" y="0" fill="#00701C" opacity="0.1">ﾘ</text>
+<text class="r" x="866" y="17" fill="#00701C" opacity="0.12">ﾅ</text>
+<text class="r" x="866" y="34" fill="#00701C" opacity="0.15">ﾐ</text>
+<text class="r" x="866" y="51" fill="#00701C" opacity="0.17">3</text>
+<text class="r" x="866" y="68" fill="#00701C" opacity="0.19">ｵ</text>
+<text class="r" x="866" y="85" fill="#00701C" opacity="0.22">ﾂ</text>
+<text class="r" x="866" y="102" fill="#00701C" opacity="0.24">ﾔ</text>
+<text class="r" x="866" y="119" fill="#00C233" opacity="0.62">ﾘ</text>
+<text class="r" x="866" y="136" fill="#00C233" opacity="0.62">ｺ</text>
+<text class="r" x="866" y="153" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="866" y="170" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="866" y="187" fill="#00FF41" opacity="0.95">8</text>
+<text class="r" x="866" y="204" fill="#00FF41" opacity="0.95">ﾄ</text>
+<text class="r" x="866" y="221" fill="#00FF41" opacity="0.95">4</text>
+<text class="r" x="866" y="238" fill="#00FF41" opacity="0.95">5</text>
+<text class="r" x="866" y="255" fill="#CFFFD8" opacity="1.0">ｻ</text>
+</g>
+<g class="c" transform="translate(0,-191)" style="animation-duration:6.78s;animation-delay:-3.79s">
+<text class="r" x="886" y="0" fill="#00701C" opacity="0.1">8</text>
+<text class="r" x="886" y="17" fill="#00701C" opacity="0.12">ﾙ</text>
+<text class="r" x="886" y="34" fill="#00701C" opacity="0.15">ﾆ</text>
+<text class="r" x="886" y="51" fill="#00701C" opacity="0.17">ﾀ</text>
+<text class="r" x="886" y="68" fill="#00701C" opacity="0.19">ﾇ</text>
+<text class="r" x="886" y="85" fill="#00701C" opacity="0.22">9</text>
+<text class="r" x="886" y="102" fill="#00701C" opacity="0.24">ﾅ</text>
+<text class="r" x="886" y="119" fill="#00C233" opacity="0.62">ﾓ</text>
+<text class="r" x="886" y="136" fill="#00C233" opacity="0.62">ﾗ</text>
+<text class="r" x="886" y="153" fill="#00C233" opacity="0.62">ｱ</text>
+<text class="r" x="886" y="170" fill="#00C233" opacity="0.62">3</text>
+<text class="r" x="886" y="187" fill="#00FF41" opacity="0.95">ﾈ</text>
+<text class="r" x="886" y="204" fill="#00FF41" opacity="0.95">ﾍ</text>
+<text class="r" x="886" y="221" fill="#00FF41" opacity="0.95">ｿ</text>
+<text class="r" x="886" y="238" fill="#00FF41" opacity="0.95">4</text>
+<text class="r" x="886" y="255" fill="#CFFFD8" opacity="1.0">ﾙ</text>
+</g>
+<g class="c" transform="translate(0,219)" style="animation-duration:6.47s;animation-delay:-4.05s">
+<text class="r" x="906" y="0" fill="#00701C" opacity="0.1">ﾋ</text>
+<text class="r" x="906" y="17" fill="#00701C" opacity="0.12">ｿ</text>
+<text class="r" x="906" y="34" fill="#00701C" opacity="0.14">ｹ</text>
+<text class="r" x="906" y="51" fill="#00701C" opacity="0.16">2</text>
+<text class="r" x="906" y="68" fill="#00701C" opacity="0.17">ｿ</text>
+<text class="r" x="906" y="85" fill="#00701C" opacity="0.19">ﾇ</text>
+<text class="r" x="906" y="102" fill="#00701C" opacity="0.21">ﾁ</text>
+<text class="r" x="906" y="119" fill="#00701C" opacity="0.23">ｾ</text>
+<text class="r" x="906" y="136" fill="#00C233" opacity="0.62">ｺ</text>
+<text class="r" x="906" y="153" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="906" y="170" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="906" y="187" fill="#00C233" opacity="0.62">ﾜ</text>
+<text class="r" x="906" y="204" fill="#00C233" opacity="0.62">ﾔ</text>
+<text class="r" x="906" y="221" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="906" y="238" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="906" y="255" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="906" y="272" fill="#00FF41" opacity="0.95">ﾛ</text>
+<text class="r" x="906" y="289" fill="#00FF41" opacity="0.95">4</text>
+<text class="r" x="906" y="306" fill="#00FF41" opacity="0.95">ｴ</text>
+<text class="r" x="906" y="323" fill="#CFFFD8" opacity="1.0">ﾁ</text>
+</g>
+<g class="c" transform="translate(0,-205)" style="animation-duration:6.21s;animation-delay:-2.03s">
+<text class="r" x="926" y="0" fill="#00701C" opacity="0.1">ﾒ</text>
+<text class="r" x="926" y="17" fill="#00701C" opacity="0.12">ﾅ</text>
+<text class="r" x="926" y="34" fill="#00701C" opacity="0.13">4</text>
+<text class="r" x="926" y="51" fill="#00701C" opacity="0.15">ｸ</text>
+<text class="r" x="926" y="68" fill="#00701C" opacity="0.17">ﾅ</text>
+<text class="r" x="926" y="85" fill="#00701C" opacity="0.18">0</text>
+<text class="r" x="926" y="102" fill="#00701C" opacity="0.2">ｴ</text>
+<text class="r" x="926" y="119" fill="#00701C" opacity="0.22">ﾙ</text>
+<text class="r" x="926" y="136" fill="#00701C" opacity="0.23">ｺ</text>
+<text class="r" x="926" y="153" fill="#00C233" opacity="0.62">ｶ</text>
+<text class="r" x="926" y="170" fill="#00C233" opacity="0.62">ﾙ</text>
+<text class="r" x="926" y="187" fill="#00C233" opacity="0.62">ﾑ</text>
+<text class="r" x="926" y="204" fill="#00C233" opacity="0.62">ｾ</text>
+<text class="r" x="926" y="221" fill="#00C233" opacity="0.62">6</text>
+<text class="r" x="926" y="238" fill="#00C233" opacity="0.62">ﾐ</text>
+<text class="r" x="926" y="255" fill="#00C233" opacity="0.62">ｽ</text>
+<text class="r" x="926" y="272" fill="#00FF41" opacity="0.95">0</text>
+<text class="r" x="926" y="289" fill="#00FF41" opacity="0.95">9</text>
+<text class="r" x="926" y="306" fill="#00FF41" opacity="0.95">ﾔ</text>
+<text class="r" x="926" y="323" fill="#00FF41" opacity="0.95">ﾈ</text>
+<text class="r" x="926" y="340" fill="#00FF41" opacity="0.95">ﾋ</text>
+<text class="r" x="926" y="357" fill="#CFFFD8" opacity="1.0">ｻ</text>
+</g>
+<g class="c" transform="translate(0,208)" style="animation-duration:5.65s;animation-delay:-0.12s">
+<text class="r" x="946" y="0" fill="#00701C" opacity="0.1">ﾓ</text>
+<text class="r" x="946" y="17" fill="#00701C" opacity="0.12">ﾇ</text>
+<text class="r" x="946" y="34" fill="#00701C" opacity="0.15">ｼ</text>
+<text class="r" x="946" y="51" fill="#00701C" opacity="0.17">ﾕ</text>
+<text class="r" x="946" y="68" fill="#00701C" opacity="0.2">ﾐ</text>
+<text class="r" x="946" y="85" fill="#00701C" opacity="0.23">5</text>
+<text class="r" x="946" y="102" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="946" y="119" fill="#00C233" opacity="0.62">ｸ</text>
+<text class="r" x="946" y="136" fill="#00C233" opacity="0.62">0</text>
+<text class="r" x="946" y="153" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="946" y="170" fill="#00C233" opacity="0.62">ｸ</text>
+<text class="r" x="946" y="187" fill="#00FF41" opacity="0.95">ﾕ</text>
+<text class="r" x="946" y="204" fill="#00FF41" opacity="0.95">ﾃ</text>
+<text class="r" x="946" y="221" fill="#00FF41" opacity="0.95">ﾊ</text>
+<text class="r" x="946" y="238" fill="#CFFFD8" opacity="1.0">8</text>
+</g>
+<g class="c" transform="translate(0,-55)" style="animation-duration:7.3s;animation-delay:-3.53s">
+<text class="r" x="966" y="0" fill="#00701C" opacity="0.1">6</text>
+<text class="r" x="966" y="17" fill="#00701C" opacity="0.13">ﾄ</text>
+<text class="r" x="966" y="34" fill="#00701C" opacity="0.16">ﾜ</text>
+<text class="r" x="966" y="51" fill="#00701C" opacity="0.2">ｿ</text>
+<text class="r" x="966" y="68" fill="#00701C" opacity="0.23">2</text>
+<text class="r" x="966" y="85" fill="#00C233" opacity="0.62">ｹ</text>
+<text class="r" x="966" y="102" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="966" y="119" fill="#00C233" opacity="0.62">ﾄ</text>
+<text class="r" x="966" y="136" fill="#00FF41" opacity="0.95">ﾘ</text>
+<text class="r" x="966" y="153" fill="#00FF41" opacity="0.95">ﾌ</text>
+<text class="r" x="966" y="170" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="966" y="187" fill="#CFFFD8" opacity="1.0">ｲ</text>
+</g>
+<g class="c" transform="translate(0,11)" style="animation-duration:10.65s;animation-delay:-9.64s">
+<text class="r" x="986" y="0" fill="#00701C" opacity="0.1">ﾇ</text>
+<text class="r" x="986" y="17" fill="#00701C" opacity="0.12">ﾏ</text>
+<text class="r" x="986" y="34" fill="#00701C" opacity="0.14">ﾙ</text>
+<text class="r" x="986" y="51" fill="#00701C" opacity="0.16">ｵ</text>
+<text class="r" x="986" y="68" fill="#00701C" opacity="0.18">ﾐ</text>
+<text class="r" x="986" y="85" fill="#00701C" opacity="0.2">1</text>
+<text class="r" x="986" y="102" fill="#00701C" opacity="0.22">ﾁ</text>
+<text class="r" x="986" y="119" fill="#00701C" opacity="0.24">ｷ</text>
+<text class="r" x="986" y="136" fill="#00C233" opacity="0.62">ﾏ</text>
+<text class="r" x="986" y="153" fill="#00C233" opacity="0.62">ﾆ</text>
+<text class="r" x="986" y="170" fill="#00C233" opacity="0.62">ﾑ</text>
+<text class="r" x="986" y="187" fill="#00C233" opacity="0.62">ﾇ</text>
+<text class="r" x="986" y="204" fill="#00C233" opacity="0.62">ｴ</text>
+<text class="r" x="986" y="221" fill="#00FF41" opacity="0.95">ｿ</text>
+<text class="r" x="986" y="238" fill="#00FF41" opacity="0.95">ﾍ</text>
+<text class="r" x="986" y="255" fill="#00FF41" opacity="0.95">ﾋ</text>
+<text class="r" x="986" y="272" fill="#00FF41" opacity="0.95">ｷ</text>
+<text class="r" x="986" y="289" fill="#00FF41" opacity="0.95">ﾒ</text>
+<text class="r" x="986" y="306" fill="#CFFFD8" opacity="1.0">ﾚ</text>
+</g>
+<rect width="1000" height="260" fill="url(#vig)"/>
+<rect x="0" y="86" width="1000" height="92" fill="#0D0208" opacity="0.72"/>
+<text class="ttl" x="500" y="132" font-size="46" text-anchor="middle" letter-spacing="8" filter="url(#glow)">POUYA SADEGHI</text>
+<text class="ttl" x="500" y="163" font-size="16" text-anchor="middle" letter-spacing="2.5" opacity="0.92">&#62; backend developer :: system architect<tspan class="cur">_</tspan></text>
+</svg>
