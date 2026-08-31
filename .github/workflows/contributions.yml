@@ -1,0 +1,31 @@
+name: Refresh Contribution Calendar
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Download current contribution calendar
+        run: bash scripts/refresh-contributions.sh
+
+      - name: Commit an updated calendar
+        run: |
+          if git diff --quiet -- assets/contributions.svg; then
+            echo "Contribution calendar is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg
+          git commit -m "chore: refresh contribution calendar"
+          git push

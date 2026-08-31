@@ -101,18 +101,13 @@ I/O? Enterprise wrapper around FastAPI? The job decides the tool — and if it d
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stupidprogrammer4&hide_border=true&bg_color=0D0208&color=00FF41&line=00FF41&point=CFFFD8&area=true&area_color=003B00&custom_title=contribution%20trace" alt="activity graph" />
-</div>
-
-<div align="center">
   <img width="95%" src="https://github-trophies.vercel.app/?username=stupidprogrammer4&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 </div>
 
+### `$ ./contributions --calendar`
+
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img width="95%" alt="GitHub contribution calendar for the last twelve months" src="assets/contributions.svg" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
