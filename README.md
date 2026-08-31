@@ -110,6 +110,21 @@ I/O? Enterprise wrapper around FastAPI? The job decides the tool — and if it d
   <img width="95%" alt="GitHub contribution calendar for the last twelve months" src="assets/contributions.svg" />
 </div>
 
+### `$ ./contributions --activity`
+
+<div align="center">
+  <img width="95%" alt="Weekly GitHub contribution activity line graph" src="assets/activity-graph.svg" />
+</div>
+
+### `$ ./contributions --snake`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake-dark.svg" />
+    <img width="95%" alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/stupidprogrammer4/stupidprogrammer4/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## `$ history | grep contest`

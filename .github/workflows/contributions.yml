@@ -18,14 +18,17 @@ jobs:
       - name: Download current contribution calendar
         run: bash scripts/refresh-contributions.sh
 
+      - name: Generate weekly activity graph
+        run: python3 scripts/generate-activity-graph.py
+
       - name: Commit an updated calendar
         run: |
-          if git diff --quiet -- assets/contributions.svg; then
-            echo "Contribution calendar is already current."
+          if git diff --quiet -- assets/contributions.svg assets/activity-graph.svg; then
+            echo "Contribution graphics are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contributions.svg
-          git commit -m "chore: refresh contribution calendar"
+          git add assets/contributions.svg assets/activity-graph.svg
+          git commit -m "chore: refresh contribution graphics"
           git push
