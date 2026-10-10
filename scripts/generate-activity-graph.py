@@ -13,7 +13,7 @@ import urllib.request
 
 USERNAME = "stupidprogrammer4"
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-OUTPUT = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "assets/activity-graph.svg"
+OUTPUT = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "assets/contribution-activity.svg"
 
 
 def fetch_days() -> list[tuple[dt.date, int]]:

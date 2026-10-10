@@ -179,7 +179,7 @@ I care about typed integration boundaries, explicit async lifetimes, and choosin
 ### `$ ./contributions --activity`
 
 <div align="center">
-  <img width="95%" alt="Weekly GitHub contribution activity line graph" src="assets/activity-graph.svg" />
+  <img width="95%" alt="Weekly GitHub contribution activity line graph" src="assets/contribution-activity.svg" />
 </div>
 
 ### `$ ./contributions --snake`

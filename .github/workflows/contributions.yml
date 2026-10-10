@@ -24,12 +24,12 @@ jobs:
 
       - name: Commit an updated calendar
         run: |
-          if git diff --quiet -- assets/activity-graph.svg; then
+          if git diff --quiet -- assets/contribution-activity.svg; then
             echo "Activity graph is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity-graph.svg
+          git add assets/contribution-activity.svg
           git commit -m "chore: refresh activity graph"
           git push
