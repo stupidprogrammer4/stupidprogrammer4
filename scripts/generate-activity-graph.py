@@ -50,8 +50,8 @@ def weekly_totals(days: list[tuple[dt.date, int]]) -> list[tuple[dt.date, int]]:
 
 
 def render(points: list[tuple[dt.date, int]]) -> str:
-    width, height = 900, 280
-    left, right, top, bottom = 62, 24, 42, 46
+    width, height = 900, 340
+    left, right, top, bottom = 62, 36, 138, 46
     chart_width = width - left - right
     chart_height = height - top - bottom
     maximum = max(value for _, value in points) or 1
@@ -70,30 +70,49 @@ def render(points: list[tuple[dt.date, int]]) -> str:
         value = round(ceiling * step / 4)
         y_position = y(value)
         grid.append(f'<line x1="{left}" y1="{y_position:.1f}" x2="{width-right}" y2="{y_position:.1f}"/>')
-        labels.append(f'<text x="{left-12}" y="{y_position+4:.1f}" text-anchor="end">{value}</text>')
+        labels.append(f'<text x="{left-14}" y="{y_position+4:.1f}" text-anchor="end">{value}</text>')
 
     months, previous_month, last_label_x = [], None, -100.0
     for index, (date, _) in enumerate(points):
         if date.month != previous_month:
             label_x = x(index)
             if label_x - last_label_x >= 38:
-                months.append(f'<text x="{label_x:.1f}" y="{height-18}">{html.escape(date.strftime("%b"))}</text>')
+                months.append(f'<text x="{label_x:.1f}" y="{height-18}" text-anchor="middle">{html.escape(date.strftime("%b"))}</text>')
                 last_label_x = label_x
             previous_month = date.month
 
     total = sum(value for _, value in points)
+    first = points[0][0].isoformat()
     latest = points[-1][0].isoformat()
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">GitHub contribution activity</title>
-<desc id="desc">{total} public contributions grouped by week through {latest}.</desc>
-<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#27ff73" stop-opacity=".34"/><stop offset="1" stop-color="#27ff73" stop-opacity="0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="{width}" height="{height}" rx="8" fill="#06100a"/>
-<g stroke="#174527" stroke-width="1" opacity=".72">{"".join(grid)}</g>
-<g fill="#638b70" font-family="ui-monospace,monospace" font-size="11">{"".join(labels)}{"".join(months)}</g>
-<text x="{left}" y="24" fill="#27ff73" font-family="ui-monospace,monospace" font-size="13">CONTRIBUTION ACTIVITY · WEEKLY</text>
-<text x="{width-right}" y="24" text-anchor="end" fill="#638b70" font-family="ui-monospace,monospace" font-size="11">{total} CONTRIBUTIONS</text>
+<desc id="desc">{total} public contributions grouped into weeks of {first} through {latest}. Edge weeks may be partial.</desc>
+<defs>
+  <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#0e0c1b"/><stop offset="1" stop-color="#17132d"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c4a4ff"/><stop offset="1" stop-color="#7cbcff"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#818cf8" stop-opacity=".26"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></linearGradient>
+  <clipPath id="frame"><rect width="{width}" height="{height}" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="{width}" height="{height}" fill="url(#surface)"/>
+<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="19.5" fill="none" stroke="#393252" stroke-opacity=".65"/>
+<circle cx="28" cy="25" r="4" fill="#a78bfa"/><circle cx="44" cy="25" r="4" fill="#818cf8"/><circle cx="60" cy="25" r="4" fill="#60a5fa"/>
+<text x="80" y="29" fill="#b1a8cc" font-family="ui-monospace,monospace" font-size="12">~/github/activity</text>
+<text x="{width-right}" y="29" text-anchor="end" fill="#c4a4ff" font-family="ui-monospace,monospace" font-size="11" letter-spacing="2">WEEKLY</text>
+<path d="M24 48H{width-24}" stroke="#393252" stroke-opacity=".7"/>
+<g font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+  <text x="{left}" y="87" fill="#f3efff" font-size="23" font-weight="700">Contribution activity</text>
+  <text x="{left}" y="111" fill="#b1a8cc" font-size="13">Weeks of {first} — {latest}</text>
+  <text x="{width-right}" y="87" text-anchor="end" fill="url(#line)" font-size="30" font-weight="700">{total:,}</text>
+  <text x="{width-right}" y="111" text-anchor="end" fill="#b1a8cc" font-size="12">contributions in this range</text>
+</g>
+<g stroke="#393252" stroke-width="1" stroke-dasharray="3 6" opacity=".55">{"".join(grid)}</g>
+<g fill="#b1a8cc" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12">{"".join(labels)}{"".join(months)}</g>
 <polygon points="{area}" fill="url(#area)"/>
-<polyline points="{line}" fill="none" stroke="#27ff73" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+<polyline points="{line}" fill="none" stroke="url(#line)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="{x(len(points)-1):.1f}" cy="{y(points[-1][1]):.1f}" r="7" fill="#7cbcff" fill-opacity=".15"/>
+<circle cx="{x(len(points)-1):.1f}" cy="{y(points[-1][1]):.1f}" r="3.5" fill="#7cbcff" stroke="#17132d" stroke-width="1.5"/>
+</g>
 </svg>
 """
 

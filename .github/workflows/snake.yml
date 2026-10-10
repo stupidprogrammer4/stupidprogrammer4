@@ -4,9 +4,10 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -14,13 +15,30 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#7c3aed&color_dots=#ede9f6,#c4b5fd,#a78bfa,#818cf8,#3b82f6
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#a78bfa&color_dots=#161426,#34305b,#5351a4,#818cf8,#93c5fd
+
+      - name: Update README animation assets
+        run: |
+          cp dist/github-contribution-grid-snake.svg assets/contribution-snake-light.svg
+          cp dist/github-contribution-grid-snake-dark.svg assets/contribution-snake-dark.svg
+          git add assets/contribution-snake-light.svg assets/contribution-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "Contribution snake is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh contribution snake"
+          git push
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v4
