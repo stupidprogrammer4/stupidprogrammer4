@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Generate weekly activity graph
         run: python3 scripts/generate-activity-graph.py
