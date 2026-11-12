@@ -8,14 +8,14 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/stupidprogrammer4">
+  <a href="https://github.com/amupouya">
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=400&size=26&pause=1000&color=C4B5FD&center=true&vCenter=true&width=760&lines=Wake%20up%2C%20Pouya...;The%20Matrix%20has%20you.;Follow%20the%20blue%20butterfly.;Knock%2C%20knock.;There%20is%20no%20spoon%20--%20only%20O%28log%20n%29.;Python%20backends.%20Open-source%20tools.%20Arch%20Linux%20%28btw%29." alt="terminal" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=stupidprogrammer4.stupidprogrammer4&amp;left_color=%23111020&amp;right_color=%238b5cf6&amp;left_text=PROFILE%20VIEWS" alt="Profile views" />
-  <a href="https://github.com/stupidprogrammer4?tab=followers"><img src="https://img.shields.io/github/followers/stupidprogrammer4?label=OPERATORS&style=flat-square&color=C4B5FD&labelColor=111020" alt="followers" /></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=amupouya.amupouya&amp;left_color=%23111020&amp;right_color=%238b5cf6&amp;left_text=PROFILE%20VIEWS" alt="Profile views" />
+  <a href="https://github.com/amupouya?tab=followers"><img src="https://img.shields.io/github/followers/amupouya?label=OPERATORS&style=flat-square&color=C4B5FD&labelColor=111020" alt="followers" /></a>
   <img src="https://img.shields.io/badge/ARCH%20LINUX-111020?style=flat-square&logo=arch-linux&logoColor=C4B5FD" alt="arch" />
   <img src="https://img.shields.io/badge/STATUS%3A%20JACKED%20IN-111020?style=flat-square" alt="status" />
 </div>
@@ -63,30 +63,30 @@ I care about typed integration boundaries, explicit async lifetimes, and choosin
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🦋 <a href="https://github.com/stupidprogrammer4/papilio">Papilio</a></h3>
+      <h3>🦋 <a href="https://github.com/amupouya/papilio">Papilio</a></h3>
       <p>A modular foundation for Python APIs, evolved from Fastamu. Module discovery, dependency injection, repositories, and transactions — less wiring, more application code.</p>
       <p><code>FastAPI</code> <code>Dishka</code> <code>SQLAlchemy</code></p>
-      <a href="https://github.com/stupidprogrammer4/papilio/stargazers"><img src="https://img.shields.io/github/stars/stupidprogrammer4/papilio?style=flat-square&label=stars&color=A78BFA&labelColor=181428" alt="Papilio stars"></a>
+      <a href="https://github.com/amupouya/papilio/stargazers"><img src="https://img.shields.io/github/stars/amupouya/papilio?style=flat-square&label=stars&color=A78BFA&labelColor=181428" alt="Papilio stars"></a>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/stupidprogrammer4/papilio-tasks">Papilio Tasks</a></h3>
+      <h3>⚡ <a href="https://github.com/amupouya/papilio-tasks">Papilio Tasks</a></h3>
       <p>Background jobs, scheduling, and projections. Typed event publishers and subscribers, with the infrastructure you choose.</p>
       <p><code>Taskiq</code> <code>FastStream</code> <code>Dishka</code></p>
-      <a href="https://github.com/stupidprogrammer4/papilio-tasks/stargazers"><img src="https://img.shields.io/github/stars/stupidprogrammer4/papilio-tasks?style=flat-square&label=stars&color=60A5FA&labelColor=181428" alt="Papilio Tasks stars"></a>
+      <a href="https://github.com/amupouya/papilio-tasks/stargazers"><img src="https://img.shields.io/github/stars/amupouya/papilio-tasks?style=flat-square&label=stars&color=60A5FA&labelColor=181428" alt="Papilio Tasks stars"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔎 <a href="https://github.com/stupidprogrammer4/digikala-mcp">Digikala MCP</a></h3>
+      <h3>🔎 <a href="https://github.com/amupouya/digikala-mcp">Digikala MCP</a></h3>
       <p>An MCP server for product discovery, research, and offer comparison. Cart operations with an execution journal.</p>
       <p><code>FastMCP</code> <code>Pydantic</code> <code>httpx</code></p>
-      <a href="https://github.com/stupidprogrammer4/digikala-mcp/stargazers"><img src="https://img.shields.io/github/stars/stupidprogrammer4/digikala-mcp?style=flat-square&label=stars&color=A78BFA&labelColor=181428" alt="Digikala MCP stars"></a>
+      <a href="https://github.com/amupouya/digikala-mcp/stargazers"><img src="https://img.shields.io/github/stars/amupouya/digikala-mcp?style=flat-square&label=stars&color=A78BFA&labelColor=181428" alt="Digikala MCP stars"></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🔗 <a href="https://github.com/stupidprogrammer4/iranian-marketplaces-sdk">Marketplace SDK</a></h3>
+      <h3>🔗 <a href="https://github.com/amupouya/iranian-marketplaces-sdk">Marketplace SDK</a></h3>
       <p>Typed Python clients for Digikala, Snapp Shop, Basalam, and Tapsi Shop. One consistent interface, sync or async.</p>
       <p><code>Python</code> <code>Pydantic</code> <code>httpx</code></p>
-      <a href="https://github.com/stupidprogrammer4/iranian-marketplaces-sdk/stargazers"><img src="https://img.shields.io/github/stars/stupidprogrammer4/iranian-marketplaces-sdk?style=flat-square&label=stars&color=60A5FA&labelColor=181428" alt="Iranian Marketplaces SDK stars"></a>
+      <a href="https://github.com/amupouya/iranian-marketplaces-sdk/stargazers"><img src="https://img.shields.io/github/stars/amupouya/iranian-marketplaces-sdk?style=flat-square&label=stars&color=60A5FA&labelColor=181428" alt="Iranian Marketplaces SDK stars"></a>
     </td>
   </tr>
   <tr>
@@ -152,27 +152,27 @@ I care about typed integration boundaries, explicit async lifetimes, and choosin
 ## `$ ./stats --live --tail`
 
 <div align="center">
-  <a href="https://github.com/stupidprogrammer4">
-    <img width="410" src="https://github-readme-stats-salesp07.vercel.app/api?username=stupidprogrammer4&amp;show_icons=true&amp;hide_border=true&amp;bg_color=111020&amp;title_color=C4B5FD&amp;text_color=CBD5E1&amp;icon_color=818CF8&amp;include_all_commits=true&amp;rank_icon=github&amp;disable_animations=true&amp;custom_title=Pouya%27s%20GitHub%20stats" alt="GitHub stats: total stars, commits, pull requests, issues, and repositories contributed to">
+  <a href="https://github.com/amupouya">
+    <img width="410" src="https://github-readme-stats-salesp07.vercel.app/api?username=amupouya&amp;show_icons=true&amp;hide_border=true&amp;bg_color=111020&amp;title_color=C4B5FD&amp;text_color=CBD5E1&amp;icon_color=818CF8&amp;include_all_commits=true&amp;rank_icon=github&amp;disable_animations=true&amp;custom_title=Pouya%27s%20GitHub%20stats" alt="GitHub stats: total stars, commits, pull requests, issues, and repositories contributed to">
   </a>
-  <a href="https://github.com/stupidprogrammer4?tab=repositories">
-    <img width="400" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=stupidprogrammer4&amp;layout=compact&amp;hide_border=true&amp;bg_color=111020&amp;title_color=C4B5FD&amp;text_color=CBD5E1&amp;langs_count=8&amp;card_width=400&amp;disable_animations=true&amp;custom_title=Languages%20across%20my%20repos" alt="Language distribution across my public repositories">
+  <a href="https://github.com/amupouya?tab=repositories">
+    <img width="400" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=amupouya&amp;layout=compact&amp;hide_border=true&amp;bg_color=111020&amp;title_color=C4B5FD&amp;text_color=CBD5E1&amp;langs_count=8&amp;card_width=400&amp;disable_animations=true&amp;custom_title=Languages%20across%20my%20repos" alt="Language distribution across my public repositories">
   </a>
 </div>
 
 ### 🔥 Contribution streak
 
 <div align="center">
-  <a href="https://github.com/stupidprogrammer4?tab=overview">
-    <img width="600" src="https://streak-stats.demolab.com/?user=stupidprogrammer4&amp;hide_border=true&amp;background=111020&amp;ring=A78BFA&amp;fire=60A5FA&amp;currStreakLabel=C4B5FD&amp;sideLabels=CBD5E1&amp;dates=A5A0BC&amp;sideNums=F3EFFF&amp;currStreakNum=F3EFFF&amp;stroke=302B48&amp;card_width=600&amp;date_format=M%20j&amp;disable_animations=true" alt="Total GitHub contributions, current streak, and longest streak">
+  <a href="https://github.com/amupouya?tab=overview">
+    <img width="600" src="https://streak-stats.demolab.com/?user=amupouya&amp;hide_border=true&amp;background=111020&amp;ring=A78BFA&amp;fire=60A5FA&amp;currStreakLabel=C4B5FD&amp;sideLabels=CBD5E1&amp;dates=A5A0BC&amp;sideNums=F3EFFF&amp;currStreakNum=F3EFFF&amp;stroke=302B48&amp;card_width=600&amp;date_format=M%20j&amp;disable_animations=true" alt="Total GitHub contributions, current streak, and longest streak">
   </a>
 </div>
 
 ### 🏆 GitHub trophies
 
 <div align="center">
-  <a href="https://github.com/stupidprogrammer4">
-    <img width="760" src="https://github-trophies.vercel.app/?username=stupidprogrammer4&amp;theme=dracula&amp;no-frame=true&amp;column=4&amp;margin-w=12&amp;margin-h=12" alt="GitHub trophies for commits, repositories, languages, stars, followers, issues, and pull requests">
+  <a href="https://github.com/amupouya">
+    <img width="760" src="https://github-trophies.vercel.app/?username=amupouya&amp;theme=dracula&amp;no-frame=true&amp;column=4&amp;margin-w=12&amp;margin-h=12" alt="GitHub trophies for commits, repositories, languages, stars, followers, issues, and pull requests">
   </a>
 </div>
 
@@ -248,7 +248,7 @@ I care about typed integration boundaries, explicit async lifetimes, and choosin
   <a href="mailto:ilovelinux764@gmail.com"><img src="https://img.shields.io/badge/Email-111020?style=for-the-badge&logo=gmail&logoColor=C4B5FD" alt="Email" /></a>
   <a href="https://reddit.com/user/amupouya"><img src="https://img.shields.io/badge/Reddit-111020?style=for-the-badge&logo=reddit&logoColor=C4B5FD" alt="Reddit" /></a>
   <a href="https://quera.org/profile/googooli"><img src="https://img.shields.io/badge/Quera-111020?style=for-the-badge&logo=codeforces&logoColor=C4B5FD" alt="Quera" /></a>
-  <a href="https://github.com/stupidprogrammer4"><img src="https://img.shields.io/badge/GitHub-111020?style=for-the-badge&logo=github&logoColor=C4B5FD" alt="GitHub" /></a>
+  <a href="https://github.com/amupouya"><img src="https://img.shields.io/badge/GitHub-111020?style=for-the-badge&logo=github&logoColor=C4B5FD" alt="GitHub" /></a>
 </div>
 
 <br/>
